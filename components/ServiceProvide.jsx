@@ -3,7 +3,7 @@ import ServiceProvideItem from "./ServiceProvideItem";
 
 function ServiceProvide() {
   return (
-    <section className="w-[1080px] mx-auto">
+    <section className="w-[1080px] mx-auto mb-12">
       <div className="grid justify-center text-center">
         <div className="mb-2 before:'' justify-center grid before:w-[2px] before:h-16 before:bg-gray-900 before:block"></div>
         <p className="mb-4">SERVICE PROVIDED</p>
