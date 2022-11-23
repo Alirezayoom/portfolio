@@ -2,11 +2,11 @@ import React from "react";
 
 const ServiceProvideItem = (props) => {
   return (
-    <div className="border-gray-300 border-2">
-      <div className="p-12">
+    <div className={`shadow-xl shadow-[#121212] ${props.color}`}>
+      <div className="p-8">
         <div>{props.logo}</div>
         <p className="text-2xl pt-6 pb-8">{props.title}</p>
-        <p className="text-gray-700">{props.content}</p>
+        <p className="text-gray-400">{props.content}</p>
       </div>
     </div>
   );

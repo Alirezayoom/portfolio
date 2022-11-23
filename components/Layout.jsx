@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
-    <div className="w-full  bg-gray-100">
+    <div className="w-full bg-gradient-to-bl from-[#232323] to-[#111] text-slate-100">
       <Navbar />
       {children}
       <Footer />
