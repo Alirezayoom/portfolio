@@ -1,5 +1,6 @@
 import React from "react";
 import ServiceProvideItem from "./ServiceProvideItem";
+import ServiceProvideItem2 from "./ServiceProvideItem2";
 
 function ServiceProvide() {
   return (
@@ -8,15 +9,20 @@ function ServiceProvide() {
         <div className=" w-[1080px] mx-auto p-24 ">
           <div className="grid justify-center text-center">
             {/* <div className="mb-2 before:'' justify-center grid before:w-[2px] before:h-16 before:bg-slate-100 before:block"></div> */}
-            <p className="z-50 mb-4">SERVICE PROVIDED</p>
+            <p className="z-50 mb-4">
+              <span className="relative before:'' before:absolute before:right-0 before:left-0 before:flex before:w-full before:h-[50%] before:top-3 before:bg-[#d61e2b] before:-z-10">
+                SERVICE PROVIDED
+              </span>
+            </p>
+
             <p className="z-50 text-4xl">
               Build brands campaigns <br />& digital projects
             </p>
-            <div className="z-50 flex gap-6 pt-12">
+            <div className="z-50 grid grid-cols-3 gap-4 pt-12 mb-6">
               <ServiceProvideItem
                 color="bg-[#1e1e1e]"
                 logo="LOGO 1"
-                title="Web Design"
+                title="UI/UX Design"
                 content="lorem lorem lorem lorem lorem lorme lorem lorem lorem lorem lorem lorme "
               />
 
@@ -33,6 +39,24 @@ function ServiceProvide() {
                 title="Graphic Design"
                 content="lorem lorem lorem lorem lorem lorme lorem lorem lorem lorem lorem lorme"
               />
+            </div>
+            <div className="z-50 grid grid-cols-3 gap-4 pt-12">
+              <div className="w-full p-8 grid row-span-2 content-center">
+                <p className="text-8xl font-bold  text-[#ee3f3e]">3</p>
+                <p className="text-sm">years experience</p>
+              </div>
+              <div>
+                <ServiceProvideItem2 number="2" text="clients" />
+              </div>
+              <div>
+                <ServiceProvideItem2 number="5" text="completed projects" />
+              </div>
+              <div>
+                <ServiceProvideItem2 number="3" text="years experience" />
+              </div>
+              <div>
+                <ServiceProvideItem2 number="10" text="achivements" />
+              </div>
             </div>
           </div>
         </div>
