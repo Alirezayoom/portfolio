@@ -4,20 +4,20 @@ import Image from "next/image";
 const Portfolios = () => {
   return (
     <section className="">
-      <div className="w-[1080px] mx-auto ">
+      <div className="w-[1080px] mx-auto pt-24 pb-24 ">
         <div className="text-center grid ">
-          <p className="z-50 pt-24 pb-4">
+          <p className="z-50 mb-10">
             <span className="relative before:'' before:absolute before:right-0 before:left-0 before:flex before:w-full before:h-[50%] before:top-3 before:bg-[#d61e2b] before:-z-10">
               PORTFOLIOS
             </span>
           </p>
 
-          <p className="text-3xl pb-12">
+          <p className="text-3xl mb-12">
             Some of my awesome
             <br /> stuffs here
           </p>
         </div>
-        <div className="grid grid-cols-6 gap-4 pb-12">
+        <div className="grid grid-cols-6 gap-4">
           <div className="overflow-hidden col-span-3 group bg-red-500 h-60 relative">
             <Image
               src="/1.png"
@@ -41,10 +41,10 @@ const Portfolios = () => {
           <div className="col-span-2 bg-black/50 h-60">hi</div>
           <div className="col-span-2 bg-black/50 h-60">hi</div>
           <div className="col-span-2 bg-black/50 h-60">hi</div>
-        </div>
 
-        <div className="py-2 px-4 hover:cursor-pointer bg-[#ee3f3e] flex justify-center w-36 mx-auto">
-          Load More
+          <div className="py-2 px-4 mt-8 hover:cursor-pointer bg-[#ee3f3e] col-span-6 flex justify-center w-36 mx-auto">
+            Load More
+          </div>
         </div>
       </div>
     </section>

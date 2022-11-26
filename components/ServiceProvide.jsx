@@ -6,7 +6,7 @@ function ServiceProvide() {
   return (
     <section className=" relative">
       <div className="before:'' before:w-1/2 before:h-full before:bg-[#151515] before:absolute">
-        <div className=" w-[1080px] mx-auto p-24 ">
+        <div className=" w-[1080px] mx-auto py-24 ">
           <div className="grid justify-center text-center">
             {/* <div className="mb-2 before:'' justify-center grid before:w-[2px] before:h-16 before:bg-slate-100 before:block"></div> */}
             <p className="z-50 mb-4">
