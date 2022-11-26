@@ -17,20 +17,34 @@ const Portfolios = () => {
             <br /> stuffs here
           </p>
         </div>
-        <div className="grid grid-cols-6 gap-4 pb-24">
-          <div className="overflow-hidden col-span-3 bg-red-500 h-60 ">
+        <div className="grid grid-cols-6 gap-4 pb-12">
+          <div className="overflow-hidden col-span-3 group bg-red-500 h-60 relative">
             <Image
               src="/1.png"
               alt="first project"
-              className="hover:scale-110 transition-all duration-700 grayscale hover:grayscale-0"
+              className=" group-hover:scale-105 transition-all duration-700 grayscale group-hover:grayscale-0
+              
+              "
               width="800"
               height="600"
             />
+            <div
+              className=" invisible w-full duration-100 ease-out transition-all bg-[#ee3f3e]/80 hover:cursor-pointer 
+              h-[20%] absolute text-[#eee]
+              z-[999] bottom-0 group-hover:visible text-center grid content-center"
+            >
+              Visit
+            </div>
           </div>
-          <div className="col-span-3 bg-red-500 h-60">hi</div>
-          <div className="col-span-2 bg-red-500 h-60">hi</div>
-          <div className="col-span-2 bg-red-500 h-60">hi</div>
-          <div className="col-span-2 bg-red-500 h-60">hi</div>
+
+          <div className="col-span-3 bg-black/50 h-60">hi</div>
+          <div className="col-span-2 bg-black/50 h-60">hi</div>
+          <div className="col-span-2 bg-black/50 h-60">hi</div>
+          <div className="col-span-2 bg-black/50 h-60">hi</div>
+        </div>
+
+        <div className="py-2 px-4 hover:cursor-pointer bg-[#ee3f3e] flex justify-center w-36 mx-auto">
+          Load More
         </div>
       </div>
     </section>
