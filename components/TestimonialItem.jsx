@@ -3,7 +3,7 @@ import React from "react";
 const TestimonialItem = (props) => {
   return (
     <div
-      className=" mx-auto text-center grid justify-center py-4 min-w-[100%]
+      className=" mx-auto text-center grid justify-center  min-w-[100%]
                     h-72 transition-all w-[100%] items-center"
     >
       <p className="text-5xl">"</p>

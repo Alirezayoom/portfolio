@@ -1,5 +1,6 @@
 import Link from "next/link";
 import AboutMe from "../components/AboutMe";
+import Connect from "../components/Connect";
 import Hero from "../components/Hero";
 import Portfolios from "../components/Portfolios";
 import ServiceProvide from "../components/ServiceProvide";
@@ -13,6 +14,7 @@ export default function Home({ posts }) {
       <Portfolios />
       <AboutMe />
       <Testimonials />
+      <Connect />
     </>
   );
 }

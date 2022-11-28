@@ -38,7 +38,7 @@ const Testimonials = () => {
 
   return (
     <div className=" bg-[#151515]">
-      <div className="w-[1080px] mx-auto">
+      <div className="w-[1080px] mx-auto py-12">
         <div className="flex flex-nowrap overflow-hidden">
           {data.map((item, index) => {
             return (
