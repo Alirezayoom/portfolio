@@ -21,21 +21,21 @@ function ServiceProvide() {
             <div className="z-50 grid grid-cols-3 gap-4 pt-12 mb-6">
               <ServiceProvideItem
                 color="bg-[#1e1e1e]"
-                logo="LOGO 1"
+                logo="./ui.svg"
                 title="UI/UX Design"
                 content="lorem lorem lorem lorem lorem lorme lorem lorem lorem lorem lorem lorme "
               />
 
               <ServiceProvideItem
                 color="bg-gradient-to-tl from-[#6d1017] to-[#d61e2b]"
-                logo="LOGO 2"
+                logo="./code.svg"
                 title="Web Development"
                 content="lorem lorem lorem lorem lorem lorme lorem lorem lorem lorem lorem lorme"
               />
 
               <ServiceProvideItem
                 color="bg-[#1e1e1e]"
-                logo="LOGO 3"
+                logo="./graphic.svg"
                 title="Graphic Design"
                 content="lorem lorem lorem lorem lorem lorme lorem lorem lorem lorem lorem lorme"
               />

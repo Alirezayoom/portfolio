@@ -15,7 +15,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="w-full absolute">
+    <div className="w-full absolute z-10">
       <div className="p-4  block ">
         <div className="w-[1080px] mx-auto">
           <ul className=" mx-auto  flex justify-center content-center">
