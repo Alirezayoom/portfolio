@@ -23,21 +23,20 @@ function ServiceProvide() {
                 color="bg-[#1e1e1e]"
                 logo="./ui.svg"
                 title="UI/UX Design"
-                content="lorem lorem lorem lorem lorem lorme lorem lorem lorem lorem lorem lorme "
+                content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ullam, nam consequatur culpa molestiae dolorum ea praesent"
               />
-
               <ServiceProvideItem
                 color="bg-gradient-to-tl from-[#6d1017] to-[#d61e2b]"
                 logo="./code.svg"
                 title="Web Development"
-                content="lorem lorem lorem lorem lorem lorme lorem lorem lorem lorem lorem lorme"
+                content="              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quaerat dicta reiciendis facere error dolores quae fugiat"
               />
 
               <ServiceProvideItem
                 color="bg-[#1e1e1e]"
                 logo="./graphic.svg"
                 title="Graphic Design"
-                content="lorem lorem lorem lorem lorem lorme lorem lorem lorem lorem lorem lorme"
+                content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis a dolorem molestiae minima, assumenda totam quas illo volu"
               />
             </div>
             <div className="z-50 grid grid-cols-3 gap-4 pt-12">

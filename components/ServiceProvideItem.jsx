@@ -3,11 +3,11 @@ import React from "react";
 const ServiceProvideItem = (props) => {
   return (
     <div className={`shadow-xl shadow-[#121212] ${props.color}`}>
-      <div className="p-8">
+      <div className="px-8 py-12">
         <img
           src={props.logo}
           alt="icon"
-          width="100px"
+          width="64px"
           className="text-red-400 grid justify-center mx-auto"
         />
         <p className="text-2xl pt-6 pb-8">{props.title}</p>
