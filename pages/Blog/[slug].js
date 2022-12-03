@@ -6,6 +6,8 @@ const slug = ({ posts }) => {
     <>
       {posts.data.map((post) => (
         <PostDetail
+          key={post.attributes.slug}
+          title={post.attributes.title}
           detail={post.attributes.content}
           image={
             "http://localhost:1337" +

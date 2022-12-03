@@ -1,7 +1,10 @@
 import React from "react";
+import { useRouter } from "next/router";
 import { BlogHero, PostCard, PostWidget, Categories } from "../components";
 
 const Blog = ({ posts }) => {
+  const router = useRouter();
+
   return (
     <div className="w-[1080px] mx-auto">
       <BlogHero />
@@ -15,6 +18,9 @@ const Blog = ({ posts }) => {
               image={
                 "http://localhost:1337" +
                 post.attributes.featuredImage.data[0].attributes.url
+              }
+              click={() =>
+                router.push(router.pathname + "/" + `${post.attributes.slug}`)
               }
             />
           ))}

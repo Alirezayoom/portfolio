@@ -11,7 +11,10 @@ const PostCard = (props) => {
           <div className="w-full text-2xl text-red-700">{props.title}</div>
           <div className="w-full text-lg text-gray-100">{props.excerpt}</div>
         </div>
-        <div className="px-3 py-2 self-center bg-red-500 w-[120px] text-center">
+        <div
+          className="px-3 py-2 self-center bg-red-500 w-[120px] text-center cursor-pointer"
+          onClick={props.click}
+        >
           Read More
         </div>
       </div>
