@@ -13,6 +13,8 @@ const slug = ({ posts }) => {
             "http://localhost:1337" +
             post.attributes.featuredImage.data[0].attributes.url
           }
+          author={post.attributes.author.data.attributes.name}
+          pdate={post.attributes.createdAt}
         />
       ))}
     </>

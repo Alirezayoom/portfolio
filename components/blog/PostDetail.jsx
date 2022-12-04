@@ -1,4 +1,5 @@
 import React from "react";
+import moment from "moment/moment";
 
 const PostDetail = (props) => {
   return (
@@ -9,6 +10,11 @@ const PostDetail = (props) => {
           <img src={props.image} alt="" />
         </div>
         <div>{props.detail}</div>
+
+        <div className="p-4 bg-gray-100 text-gray-900 my-4 rounded">
+          <div>Author: {props.author}</div>
+          <div>Publish Date: {moment(props.pdate).format("MMM DD, YYYY")}</div>
+        </div>
       </div>
     </div>
   );
