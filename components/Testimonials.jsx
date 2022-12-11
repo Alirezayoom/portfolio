@@ -5,19 +5,19 @@ const Testimonials = () => {
   const data = [
     [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium excepturi aut voluptates totam perferendis qui provident pariatur in iure maiores, maxime incidunt officiis vero vitae nobis ex repudiandae aperiam suscipit!",
-      "/about.jpeg",
-      "ali",
+      "/a1.jpeg",
+      "Ali Mohammadi",
     ],
     [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora accusantium temporibus qui nemo, voluptates repudiandae error architecto sed, ab ad labore cupiditate blanditiis fuga officiis. Quod recusandae sequi iure nemo",
-      "/about.jpeg",
-      "reza",
+      "/a2.jpeg",
+      "Zahra Akbari",
     ],
     [
       "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nemo mollitia rem vero id explicabo itaque excepturi odit! Excepturi rem tenetur quisquam libero eius aspernatur aut nihil eligendi asperiores! Amet.",
 
-      "/about.jpeg",
-      "ahmad",
+      "/a3.jpeg",
+      "Ahmad Hannan",
     ],
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
