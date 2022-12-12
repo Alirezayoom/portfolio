@@ -21,9 +21,9 @@ const Navbar = () => {
           <ul className=" mx-auto  flex justify-center content-center">
             {links.map((link) => (
               <Link
-                className={`text-sm font-semibold py-1 mx-4 hover-bg-gray-100 text-[#020408] hover:text-[#365475] ${
+                className={`text-sm font-semibold py-1 mx-4 hover-bg-gray-100 text-neutral-500 hover:text-sky-900 ${
                   selectedRoute == link.link
-                    ? "inner-border border-[#365475]  border-b-4  !text-[#365475]"
+                    ? "inner-border border-sky-900  border-b-4  !text-sky-900"
                     : ""
                 }`}
                 key={link.name}
