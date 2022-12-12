@@ -2,7 +2,9 @@ import React from "react";
 
 const ServiceProvideItem = (props) => {
   return (
-    <div className={`shadow-xl shadow-[#121212] ${props.color}`}>
+    <div
+      className={`shadow-xl shadow-[#020408]/20 bg-[#5981b1] ${props.color}`}
+    >
       <div className="px-8 py-12">
         <img
           src={props.logo}
@@ -11,7 +13,7 @@ const ServiceProvideItem = (props) => {
           className="text-red-400 grid justify-center mx-auto"
         />
         <p className="text-2xl pt-6 pb-8">{props.title}</p>
-        <p className="text-gray-400">{props.content}</p>
+        <p className="text-[#020408]">{props.content}</p>
       </div>
     </div>
   );

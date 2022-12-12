@@ -15,15 +15,15 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="w-full  z-10">
+    <div className="w-full absolute z-10">
       <div className="p-4  block ">
         <div className="w-[1080px] mx-auto">
           <ul className=" mx-auto  flex justify-center content-center">
             {links.map((link) => (
               <Link
-                className={`text-sm font-semibold py-1 mx-4 hover-bg-gray-100 text-gray-300 hover:text-gray-100 ${
+                className={`text-sm font-semibold py-1 mx-4 hover-bg-gray-100 text-[#020408] hover:text-[#365475] ${
                   selectedRoute == link.link
-                    ? "inner-border border-[#ee3f3e]  border-b-4  !text-[#ee3f3e]"
+                    ? "inner-border border-[#365475]  border-b-4  !text-[#365475]"
                     : ""
                 }`}
                 key={link.name}
