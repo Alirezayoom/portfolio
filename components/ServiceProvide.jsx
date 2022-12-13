@@ -75,20 +75,20 @@ function ServiceProvide() {
             </div>
             <div className="z-50 grid grid-cols-3 gap-4 pt-12">
               <div className="w-full p-8 grid row-span-2 content-center">
-                <p className="text-8xl font-bold  text-sky-900">3</p>
+                <p className="text-8xl font-bold  text-sky-900">12</p>
                 <p className="text-sm">years experience</p>
               </div>
               <div>
-                <ServiceProvideItem2 number="2" text="clients" />
+                <ServiceProvideItem2 number="23" text="clients" />
               </div>
               <div>
-                <ServiceProvideItem2 number="5" text="completed projects" />
+                <ServiceProvideItem2 number="38" text="completed projects" />
               </div>
               <div>
-                <ServiceProvideItem2 number="3" text="years experience" />
+                <ServiceProvideItem2 number="12" text="years experience" />
               </div>
               <div>
-                <ServiceProvideItem2 number="10" text="achivements" />
+                <ServiceProvideItem2 number="15" text="achivements" />
               </div>
             </div>
           </div>

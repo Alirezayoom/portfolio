@@ -28,7 +28,7 @@ const Hero = () => {
           <p className="text-6xl font-bold mb-4 text-neutral-900">
             I'm Alireza Karimi.
           </p>
-          <span className="text-3xl text-[#020408]" ref={el}></span>
+          <span className="text-3xl text-neutral-800" ref={el}></span>
         </div>
 
         {/* icons */}
