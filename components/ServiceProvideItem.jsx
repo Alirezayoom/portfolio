@@ -3,7 +3,7 @@ import React from "react";
 const ServiceProvideItem = (props) => {
   return (
     <div
-      className={`shadow-xl text-red-700 shadow-neutral-900/10 bg-sky-200 ${props.color}`}
+      className={`shadow-xl text-red-700 shadow-sky-900/20 bg-sky-200 ${props.color}`}
     >
       <div className="px-8 py-12 text-red-700">
         <div className="grid justify-center mx-auto">{props.icon}</div>

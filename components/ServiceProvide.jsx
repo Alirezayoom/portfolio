@@ -75,7 +75,7 @@ function ServiceProvide() {
             </div>
             <div className="z-50 grid grid-cols-3 gap-4 pt-12">
               <div className="w-full p-8 grid row-span-2 content-center">
-                <p className="text-8xl font-bold  text-[#ee3f3e]">3</p>
+                <p className="text-8xl font-bold  text-sky-900">3</p>
                 <p className="text-sm">years experience</p>
               </div>
               <div>
