@@ -42,7 +42,10 @@ const Portfolios = () => {
           <div className="col-span-2 bg-black/50 h-60">hi</div>
           <div className="col-span-2 bg-black/50 h-60">hi</div>
 
-          <div className="py-2 px-4 mt-8 hover:cursor-pointer text-white bg-sky-900 col-span-6 flex justify-center w-36 mx-auto">
+          <div
+            className="py-2 px-4 mt-8 hover:cursor-pointer text-white bg-sky-900 
+          col-span-6 flex justify-center w-36 mx-auto"
+          >
             Load More
           </div>
         </div>

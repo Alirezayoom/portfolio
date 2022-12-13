@@ -37,9 +37,12 @@ const Testimonials = () => {
   });
 
   return (
-    <div className=" bg-[#151515]">
-      <div className="w-[1080px] mx-auto py-12">
-        <div className="flex flex-nowrap overflow-hidden">
+    <div className="">
+      <div className="w-[1080px] mx-auto text-center py-12">
+        <span className="relative before:'' before:absolute before:right-0 before:left-0 before:flex before:w-full before:h-[50%] before:top-3 before:bg-sky-200 before:-z-10">
+          TESTIMONIALS
+        </span>
+        <div className="flex flex-nowrap overflow-hidden mt-12">
           {data.map((item, index) => {
             return (
               <div
