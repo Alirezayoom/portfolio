@@ -14,15 +14,6 @@ const center = {
 const GetInTouch = () => {
   return (
     <div className="w-[1080px] mx-auto py-12">
-      <div className="py-12">
-        <LoadScript>
-          <GoogleMap
-            mapContainerStyle={containerStyle}
-            center={center}
-            zoom={12}
-          ></GoogleMap>
-        </LoadScript>
-      </div>
       <div className="p-2 text-3xl mb-2">Get In Touch</div>
       <div className="grid grid-cols-3">
         <form method="" className="col-span-2 grid grid-cols-2 gap-4 p-2">
@@ -30,7 +21,7 @@ const GetInTouch = () => {
             <textarea
               rows={8}
               placeholder="Enter Message"
-              className="text-[#eee] p-3 focus:outline-none  focus:placeholder-transparent 
+              className="text-neutral-900 p-3 focus:outline-none 
               bg-transparent placeholder:text-[#aaa] border-[1px] border-[#aaa] "
             ></textarea>
           </div>
@@ -38,7 +29,7 @@ const GetInTouch = () => {
             <input
               type="text"
               placeholder="Enter Your Name"
-              className="text-[#eee] p-3 focus:outline-none  focus:placeholder-transparent
+              className="text-neutral-900 p-3 focus:outline-none  
               bg-transparent placeholder:text-[#aaa] border-[1px] border-[#aaa] "
             />
           </div>
@@ -46,7 +37,7 @@ const GetInTouch = () => {
             <input
               type="email"
               placeholder="Enter Email Address"
-              className="text-[#eee] p-3 focus:outline-none  focus:placeholder-transparent
+              className="text-neutral-800 p-3 focus:outline-none  
               bg-transparent placeholder:text-[#aaa] border-[1px] border-[#aaa] "
             />
           </div>
@@ -54,13 +45,13 @@ const GetInTouch = () => {
             <input
               type="text"
               placeholder="Enter Subject"
-              className="text-[#eee] p-3 focus:outline-none focus:placeholder-transparent
+              className="text-neutral-800 p-3 focus:outline-none 
               bg-transparent placeholder:text-[#aaa] border-[1px] border-[#aaa] "
             />
           </div>
           <button
-            className="text-[#eee] mt-4 p-3 w-[200px]
-              bg-[#ee3f3e]"
+            className="text-white mt-4 p-3 w-[200px]
+              bg-sky-900"
           >
             SEND
           </button>
@@ -119,6 +110,15 @@ const GetInTouch = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="py-12">
+        <LoadScript>
+          <GoogleMap
+            mapContainerStyle={containerStyle}
+            center={center}
+            zoom={12}
+          ></GoogleMap>
+        </LoadScript>
       </div>
     </div>
   );
