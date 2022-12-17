@@ -1,4 +1,4 @@
-export { default as AboutHero } from "./AboutHero";
+export { default as PortfolioHero } from "./PortfolioHero";
 export { default as AboutMe } from "./AboutMe";
 export { default as BlogHero } from "./BlogHero";
 export { default as Connect } from "./Connect";
