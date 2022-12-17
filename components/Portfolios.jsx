@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
 
 const Portfolios = () => {
@@ -18,13 +19,12 @@ const Portfolios = () => {
           </p>
         </div>
         <div className="grid grid-cols-6 gap-4">
-          <div className="overflow-hidden col-span-3 group bg-red-500 h-60 relative">
+          {/* 1 */}
+          <div className="overflow-hidden col-span-3 group h-60 relative shadow-xl">
             <Image
               src="/1.png"
               alt="first project"
-              className=" group-hover:scale-105 transition-all duration-700 grayscale group-hover:grayscale-0
-              
-              "
+              className=" group-hover:scale-110 transition-all duration-700 grayscale group-hover:grayscale-0"
               width="800"
               height="600"
             />
@@ -33,14 +33,67 @@ const Portfolios = () => {
               h-[20%] absolute text-[#eee]
               z-[999] bottom-0 group-hover:visible text-center grid content-center"
             >
-              Visit
+              <Link href="https://nft-landing-page-omega.vercel.app/">
+                Visit
+              </Link>
             </div>
           </div>
 
-          <div className="col-span-3 bg-black/50 h-60">hi</div>
-          <div className="col-span-2 bg-black/50 h-60">hi</div>
-          <div className="col-span-2 bg-black/50 h-60">hi</div>
-          <div className="col-span-2 bg-black/50 h-60">hi</div>
+          {/* 2 */}
+          <div className="col-span-3 overflow-hidden group relative h-60 shadow-xl">
+            <Image
+              src="/p2.png"
+              alt="first project"
+              className=" group-hover:scale-110 transition-all duration-700 grayscale group-hover:grayscale-0"
+              width="800"
+              height="600"
+            />
+            <div
+              className=" invisible w-full duration-100 ease-out transition-all bg-sky-900/80 hover:cursor-pointer 
+              h-[20%] absolute text-[#eee]
+              z-[999] bottom-0 group-hover:visible text-center grid content-center"
+            >
+              <Link href="https://real-estate-steel-theta.vercel.app/">
+                Visit
+              </Link>
+            </div>
+          </div>
+
+          {/* 3 */}
+          <div className="col-span-3 overflow-hidden group relative h-60 shadow-xl">
+            <Image
+              src="/p3.png"
+              alt="first project"
+              className=" group-hover:scale-110 transition-all duration-700 grayscale group-hover:grayscale-0"
+              width="800"
+              height="600"
+            />
+            <div
+              className=" invisible w-full duration-100 ease-out transition-all bg-sky-900/80 hover:cursor-pointer 
+              h-[20%] absolute text-[#eee]
+              z-[999] bottom-0 group-hover:visible text-center grid content-center"
+            >
+              <Link href="https://modern-blog-six.vercel.app">Visit</Link>
+            </div>
+          </div>
+
+          {/* 4 */}
+          <div className="col-span-3 overflow-hidden group relative h-60 shadow-xl">
+            <Image
+              src="/p4.png"
+              alt="first project"
+              className=" group-hover:scale-110 transition-all duration-700 grayscale group-hover:grayscale-0"
+              width="800"
+              height="600"
+            />
+            <div
+              className=" invisible w-full duration-100 ease-out transition-all bg-sky-900/80 hover:cursor-pointer 
+              h-[20%] absolute text-[#eee]
+              z-[999] bottom-0 group-hover:visible text-center grid content-center"
+            >
+              <Link href="https://next-blog-tawny-ten.vercel.app/">Visit</Link>
+            </div>
+          </div>
 
           <div
             className="py-2 px-4 mt-8 hover:cursor-pointer text-white bg-sky-900 
