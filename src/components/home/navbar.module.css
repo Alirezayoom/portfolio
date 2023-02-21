@@ -1,0 +1,39 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 3.5rem;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  justify-self: start;
+}
+
+.items {
+  justify-self: center;
+}
+
+.items > ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.items > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.items > ul > li > a:hover {
+  color: lightblue;
+}
+
+.github {
+  justify-self: end;
+}
