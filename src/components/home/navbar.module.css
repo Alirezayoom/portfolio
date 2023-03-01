@@ -1,5 +1,4 @@
 .navbar {
-  background-color: rgba(0, 0, 0, 0.2);
   height: 3.5rem;
   max-width: 60rem;
   margin: 0 auto;
@@ -18,7 +17,7 @@
 
 .items > ul > li > a {
   text-decoration: none;
-  color: white;
+  color: #aaa;
 }
 
 .items > ul > li > a:hover {
