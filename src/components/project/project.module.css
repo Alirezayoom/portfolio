@@ -83,7 +83,7 @@
   justify-content: center;
 }
 
-.project-links > button {
+.project-links button {
   width: 5rem;
   height: 2rem;
   border: none;
@@ -91,7 +91,7 @@
   background-color: #333;
 }
 
-.project-links > button:hover {
+.project-links button:hover {
   background-color: #2f2f2f;
   cursor: pointer;
 }
