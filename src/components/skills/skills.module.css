@@ -1,6 +1,12 @@
 .skills {
   background-color: #222;
-  padding: 4rem 0;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.skills > h2 {
+  margin: 0 auto 3rem;
+  font-size: 2rem;
 }
 
 .skillswrapper {
