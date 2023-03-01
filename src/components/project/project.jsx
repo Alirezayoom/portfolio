@@ -13,39 +13,94 @@ import react from "../../assets/skills/react.svg";
 import next from "../../assets/skills/nextjs.svg";
 import git from "../../assets/skills/git.svg";
 
-const technologies = [
-  { name: "html", icon: html },
-  { name: "css", icon: css },
-  { name: "react", icon: react },
+const projects = [
+  {
+    id: 1,
+    cover: avatar,
+    name: "My Portfolio",
+    technologies: [
+      { id: 1, name: "html", icon: html },
+      { id: 2, name: "css", icon: css },
+      { id: 3, name: "react", icon: react },
+      { id: 4, name: "javascript", icon: javascript },
+    ],
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consequuntur nemo laborum.",
+    repository: "https://github.com/Alirezayoom",
+    live: "https://github.com/Alirezayoom",
+  },
+  {
+    id: 2,
+    cover: avatar,
+    name: "Todo app",
+    technologies: [
+      { id: 1, name: "html", icon: html },
+      { id: 2, name: "css", icon: css },
+      { id: 3, name: "react", icon: react },
+      { id: 4, name: "typescript", icon: typescript },
+    ],
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consequuntur nemo laborum.",
+    repository: "https://github.com/Alirezayoom",
+    live: "https://github.com/Alirezayoom",
+  },
+  {
+    id: 3,
+    cover: avatar,
+    name: "project 3",
+    technologies: [
+      { id: 1, name: "html", icon: html },
+      { id: 2, name: "css", icon: css },
+      { id: 3, name: "next", icon: next },
+    ],
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consequuntur nemo laborum.",
+    repository: "https://github.com/Alirezayoom",
+    live: "https://github.com/Alirezayoom",
+  },
+  {
+    id: 4,
+    cover: avatar,
+    name: "project 4",
+    technologies: [
+      { id: 1, name: "html", icon: html },
+      { id: 2, name: "css", icon: css },
+    ],
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consequuntur nemo laborum.",
+    repository: "https://github.com/Alirezayoom",
+    live: "https://github.com/Alirezayoom",
+  },
 ];
 
 export default function Project() {
   return (
     <section className={classes.project}>
-      <div className="container">
-        <div className={classes.card}>
-          <div className={classes["card-image"]}>
-            <img src={avatar} alt={avatar} />
+      <div className={`${classes.cards} container`}>
+        {projects.map((project) => (
+          <div key={project.id} className={classes.card}>
+            <div className={classes["card-image"]}>
+              <img src={project.cover} alt={avatar} />
+            </div>
+            <div className={classes["card-description"]}>
+              <div className={classes["project-name"]}>{project.name}</div>
+              <div className={classes["project-technologies"]}>
+                {project.technologies.map((technology) => (
+                  <div key={technology.name}>
+                    <img src={technology.icon} alt={technology.name} />
+                  </div>
+                ))}
+              </div>
+              <div className={classes["project-description"]}>
+                {project.description}
+              </div>
+              <div className={classes["project-links"]}>
+                <button>Github</button>
+                <button>Visit</button>
+              </div>
+            </div>
           </div>
-          <div className={classes["card-description"]}>
-            <div className={classes["project-name"]}>Project Name</div>
-            <div className={classes["project-technologies"]}>
-              {technologies.map((technology) => (
-                <div key={technology.name}>
-                  <img src={technology.icon} alt={technology.name} />
-                </div>
-              ))}
-            </div>
-            <div className={classes["project-description"]}>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae,
-              sequi.
-            </div>
-            <div className={classes["project-links"]}>
-              <button>Github</button>
-              <button>Visit</button>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   );
