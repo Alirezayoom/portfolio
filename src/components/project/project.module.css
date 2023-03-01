@@ -3,12 +3,12 @@
 }
 
 .card {
-  width: 17rem;
+  max-width: 20rem;
   background-color: #222;
 }
 
 .card-image {
-  height: 10rem;
+  height: 12rem;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -17,9 +17,67 @@
 
 .card-image img {
   width: 100%;
+
+  filter: grayscale();
+  transition: 0.3s;
+}
+
+.card:hover .card-image img {
+  filter: none;
 }
 
 .card-description {
-  height: 10rem;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
+}
+
+.project-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.625rem;
+}
+
+.project-technologies {
+  margin-bottom: 0.625rem;
+  display: flex;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+}
+
+.project-technologies > div {
+  width: 2rem;
+}
+
+.project-technologies img {
+  width: 100%;
+
+  filter: grayscale();
+  transition: 0.3s;
+}
+
+.card:hover .project-technologies img {
+  filter: none;
+}
+
+.project-description {
+  color: #aaa;
+  margin-bottom: 1.5rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.project-links > button {
+  width: 5rem;
+  height: 2rem;
+  border: none;
+  border-radius: 0;
+  background-color: #333;
+}
+
+.project-links > button:hover {
+  background-color: #2f2f2f;
+  cursor: pointer;
 }
