@@ -4,7 +4,7 @@ import classes from "./hero.module.css";
 
 export default function Hero() {
   return (
-    <header className={classes.header}>
+    <header className={classes.hero}>
       <div className={classes.avatar}>
         <img src={avatar} alt="avatar" />
       </div>
