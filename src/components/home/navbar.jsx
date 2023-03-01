@@ -11,7 +11,9 @@ export default function Navbar() {
   return (
     <nav className="container">
       <div className={classes.navbar}>
-        <div className={classes.logo}>ALIREZA KARIMI</div>
+        <div className={classes.logo}>
+          <a href="#">ALIREZA KARIMI</a>
+        </div>
         <div className={classes.items}>
           <ul>
             {items.map((item) => (
