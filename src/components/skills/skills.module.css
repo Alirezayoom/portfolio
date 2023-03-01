@@ -1,3 +1,27 @@
 .skills {
   background-color: #222;
+  padding: 4rem 0;
+}
+
+.skillswrapper {
+  max-width: 60rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 2rem; */
+}
+
+.icons {
+  width: 4rem;
+  margin: 0 auto;
+}
+
+.icons > img {
+  width: 100%;
+  filter: grayscale();
+  transition: all 0.5s;
+}
+
+.icons > img:hover {
+  filter: none;
 }
