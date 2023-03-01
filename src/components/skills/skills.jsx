@@ -26,14 +26,16 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section className={classes.skills}>
-      <h2>My Web Skills</h2>
-      <div className={classes.skillswrapper}>
-        {skills.map((skill) => (
-          <div key={skill.name} className={classes.icons}>
-            <img src={skill.icon} alt={skill.name} />
-          </div>
-        ))}
+    <section className={`${classes.skills}`}>
+      <div className="container">
+        <h2>My Web Skills</h2>
+        <div className={classes.skillswrapper}>
+          {skills.map((skill) => (
+            <div key={skill.name} className={classes.icons}>
+              <img src={skill.icon} alt={skill.name} />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

@@ -11,3 +11,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 64rem;
+  width: 100%;
+  margin: 0 auto;
+  background-color: red;
+}
