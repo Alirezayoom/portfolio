@@ -8,6 +8,12 @@
   background-color: #222;
 }
 
+.project h2 {
+  margin: 0 auto 4rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 2fr);

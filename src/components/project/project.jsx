@@ -76,31 +76,34 @@ const projects = [
 export default function Project() {
   return (
     <section className={classes.project}>
-      <div className={`${classes.cards} container`}>
-        {projects.map((project) => (
-          <div key={project.id} className={classes.card}>
-            <div className={classes["card-image"]}>
-              <img src={project.cover} alt={avatar} />
+      <div className={`container`}>
+        <h2>My Projects</h2>
+        <div className={classes.cards}>
+          {projects.map((project) => (
+            <div key={project.id} className={classes.card}>
+              <div className={classes["card-image"]}>
+                <img src={project.cover} alt={avatar} />
+              </div>
+              <div className={classes["card-description"]}>
+                <div className={classes["project-name"]}>{project.name}</div>
+                <div className={classes["project-technologies"]}>
+                  {project.technologies.map((technology) => (
+                    <div key={technology.name}>
+                      <img src={technology.icon} alt={technology.name} />
+                    </div>
+                  ))}
+                </div>
+                <div className={classes["project-description"]}>
+                  {project.description}
+                </div>
+                <div className={classes["project-links"]}>
+                  <button>Github</button>
+                  <button>Visit</button>
+                </div>
+              </div>
             </div>
-            <div className={classes["card-description"]}>
-              <div className={classes["project-name"]}>{project.name}</div>
-              <div className={classes["project-technologies"]}>
-                {project.technologies.map((technology) => (
-                  <div key={technology.name}>
-                    <img src={technology.icon} alt={technology.name} />
-                  </div>
-                ))}
-              </div>
-              <div className={classes["project-description"]}>
-                {project.description}
-              </div>
-              <div className={classes["project-links"]}>
-                <button>Github</button>
-                <button>Visit</button>
-              </div>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );
