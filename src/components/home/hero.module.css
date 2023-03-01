@@ -41,3 +41,8 @@
   background-color: #2a2a2a;
   cursor: pointer;
 }
+
+.arrow {
+  margin-left: 0.4rem;
+  animation: all 0.2s;
+}
