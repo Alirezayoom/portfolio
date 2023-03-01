@@ -2,7 +2,7 @@ import classes from "./navbar.module.css";
 
 const items = [
   { name: "Home", link: "#" },
-  { name: "About", link: "#about" },
+  { name: "Skills", link: "#skills" },
   { name: "Project", link: "#project" },
   { name: "Contact", link: "#contact" },
 ];
