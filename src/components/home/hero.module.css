@@ -1,4 +1,6 @@
 .header {
+  max-width: 60rem;
+  margin: 0 auto;
 }
 
 .avatar {
@@ -6,9 +8,22 @@
   height: 6rem;
   border-radius: 20rem;
   overflow: hidden;
-  margin: 6rem auto 1rem;
+  margin: 6rem auto 3rem;
 }
 
 .avatar > img {
   height: 100%;
+}
+
+.info {
+  text-align: center;
+}
+
+.info > h1 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.info > h2 {
+  font-size: 2.5rem;
 }
