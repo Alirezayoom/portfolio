@@ -21,3 +21,7 @@
 button {
   transition: 0.3s;
 }
+
+a {
+  text-decoration: none;
+}
