@@ -97,8 +97,12 @@ export default function Project() {
                   {project.description}
                 </div>
                 <div className={classes["project-links"]}>
-                  <button>Github</button>
-                  <button>Visit</button>
+                  <a href={project.repository} target="_blank">
+                    <button>Github</button>
+                  </a>
+                  <a href={project.live} target="_blank">
+                    <button>Visit</button>
+                  </a>
                 </div>
               </div>
             </div>
