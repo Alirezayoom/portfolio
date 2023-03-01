@@ -12,6 +12,7 @@ export default function Hero() {
         <h1>Hi, I'm Alireza Karimi</h1>
         <h2>Front-end Web Developer</h2>
       </div>
+      <button>Linkedin</button>
     </header>
   );
 }
