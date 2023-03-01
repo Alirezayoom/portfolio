@@ -17,3 +17,7 @@
   width: 100%;
   margin: 0 auto;
 }
+
+button {
+  transition: 0.3s;
+}
