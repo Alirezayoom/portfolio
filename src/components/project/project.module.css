@@ -4,7 +4,15 @@
 
 .card {
   max-width: 20rem;
+  width: 100%;
   background-color: #222;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  row-gap: 3rem;
+  column-gap: 2rem;
 }
 
 .card-image {
