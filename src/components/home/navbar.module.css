@@ -15,11 +15,14 @@
   list-style: none;
 }
 
-.items > ul > li > a {
+.items > ul > li > a,
+.logo a {
   text-decoration: none;
   color: #aaa;
+  transition: all 0.2s;
 }
 
-.items > ul > li > a:hover {
-  color: lightblue;
+.items > ul > li > a:hover,
+.logo a:hover {
+  color: #ddd;
 }
