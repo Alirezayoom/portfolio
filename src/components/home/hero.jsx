@@ -1,3 +1,11 @@
+import avatar from "../../assets/avatar.jpeg";
+
 export default function Hero() {
-  return <div>hi</div>;
+  return (
+    <header>
+      <div>
+        <img src={avatar} alt="avatar" />
+      </div>
+    </header>
+  );
 }
