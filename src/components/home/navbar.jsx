@@ -21,7 +21,6 @@ export default function Navbar() {
             ))}
           </ul>
         </div>
-        <div className={classes.github}>hi</div>
       </div>
     </nav>
   );

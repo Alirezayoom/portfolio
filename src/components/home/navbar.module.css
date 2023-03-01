@@ -5,18 +5,9 @@
   margin: 0 auto;
   padding: 0 1rem;
 
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.logo {
-  justify-self: start;
-}
-
-.items {
-  justify-self: center;
 }
 
 .items > ul {
@@ -32,8 +23,4 @@
 
 .items > ul > li > a:hover {
   color: lightblue;
-}
-
-.github {
-  justify-self: end;
 }
