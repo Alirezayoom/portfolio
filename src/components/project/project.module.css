@@ -1,0 +1,25 @@
+.project {
+  margin: 8rem 0;
+}
+
+.card {
+  width: 17rem;
+  background-color: #222;
+}
+
+.card-image {
+  height: 10rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image img {
+  width: 100%;
+}
+
+.card-description {
+  height: 10rem;
+  padding: 1rem;
+}
