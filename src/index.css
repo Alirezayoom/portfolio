@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, sans-serif;
+  font-family: "montserrat", Inter, sans-serif;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -19,6 +19,7 @@
 }
 
 button {
+  font-family: inherit;
   transition: 0.3s;
 }
 
