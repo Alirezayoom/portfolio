@@ -11,7 +11,7 @@
 
 .skillswrapper {
   max-width: 60rem;
-  margin: 0 auto;
+  margin: 0 auto 2rem;
   display: flex;
   flex-wrap: wrap;
   /* gap: 2rem; */
@@ -30,4 +30,15 @@
 
 .icons > img:hover {
   filter: none;
+}
+
+.protip {
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
+  text-align: center;
+}
+
+.protip-text {
+  font-weight: bold;
 }

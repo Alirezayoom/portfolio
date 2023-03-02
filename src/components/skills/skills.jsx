@@ -1,5 +1,7 @@
 import classes from "./skills.module.css";
 
+import light from "../../assets/light.svg";
+
 import html from "../../assets/skills/html.svg";
 import css from "../../assets/skills/css.svg";
 import sass from "../../assets/skills/sass.svg";
@@ -35,6 +37,16 @@ export default function Skills() {
               <img src={skill.icon} alt={skill.name} />
             </div>
           ))}
+        </div>
+        <div className={classes.protip}>
+          <span>
+            <img src={light} alt="pro tip" />
+          </span>
+          <span className={classes["protip-text"]}>ProTip!</span>
+          <span>
+            I am also familiar with React-router, Next Auth, Redux, Markdown,
+            MySQL, Mongodb and Firebase.
+          </span>
         </div>
       </div>
     </section>
