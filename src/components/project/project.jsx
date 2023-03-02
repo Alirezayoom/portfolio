@@ -2,6 +2,9 @@ import classes from "./project.module.css";
 
 import avatar from "../../assets/avatar.jpeg";
 
+import github from "../../assets/github.svg";
+import arrow from "../../assets/arrow.svg";
+
 import html from "../../assets/skills/html.svg";
 import css from "../../assets/skills/css.svg";
 import sass from "../../assets/skills/sass.svg";
@@ -25,7 +28,7 @@ const projects = [
       { id: 4, name: "javascript", icon: javascript },
     ],
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consequuntur nemo laborum.",
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consequuntur nemo laborum. amet consectetur adipisicing elit. Repudiandae consequuntur nemo laborum.",
     repository: "https://github.com/Alirezayoom",
     live: "https://github.com/Alirezayoom",
   },
@@ -39,8 +42,7 @@ const projects = [
       { id: 3, name: "react", icon: react },
       { id: 4, name: "typescript", icon: typescript },
     ],
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consequuntur nemo laborum.",
+    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
     repository: "https://github.com/Alirezayoom",
     live: "https://github.com/Alirezayoom",
   },
@@ -60,6 +62,32 @@ const projects = [
   },
   {
     id: 4,
+    cover: avatar,
+    name: "project 4",
+    technologies: [
+      { id: 1, name: "html", icon: html },
+      { id: 2, name: "css", icon: css },
+    ],
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consequuntur nemo laborum.",
+    repository: "https://github.com/Alirezayoom",
+    live: "https://github.com/Alirezayoom",
+  },
+  {
+    id: 5,
+    cover: avatar,
+    name: "project 4",
+    technologies: [
+      { id: 1, name: "html", icon: html },
+      { id: 2, name: "css", icon: css },
+    ],
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consequuntur nemo laborum.",
+    repository: "https://github.com/Alirezayoom",
+    live: "https://github.com/Alirezayoom",
+  },
+  {
+    id: 6,
     cover: avatar,
     name: "project 4",
     technologies: [
@@ -98,10 +126,20 @@ export default function Project() {
                 </div>
                 <div className={classes["project-links"]}>
                   <a href={project.repository} target="_blank">
-                    <button>Github</button>
+                    <button>
+                      <span>
+                        <img src={github} alt="" />
+                      </span>
+                      Github
+                    </button>
                   </a>
                   <a href={project.live} target="_blank">
-                    <button>Visit</button>
+                    <button>
+                      Visit
+                      <span>
+                        <img src={arrow} alt="" />
+                      </span>
+                    </button>
                   </a>
                 </div>
               </div>
