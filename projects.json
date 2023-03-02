@@ -1,0 +1,231 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "cover": "src/assets/avatar.jpeg",
+      "name": "My Portfolio",
+      "technologies": [
+        { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
+        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+      ],
+      "description": "My portfolio using React and CSS.",
+      "repository": "https://github.com/Alirezayoom",
+      "live": "https://github.com/Alirezayoom"
+    },
+
+    {
+      "id": "2",
+      "cover": "src/assets/avatar.jpeg",
+      "name": "To-Do App",
+      "technologies": [
+        { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
+        {
+          "id": 2,
+          "name": "typescript",
+          "icon": "src/assets/skills/typescript.svg"
+        },
+        {
+          "id": 3,
+          "name": "tailwind",
+          "icon": "src/assets/skills/tailwindcss.svg"
+        }
+      ],
+      "description": "To-Do app using React, Typescript and Tailwind.",
+      "repository": "https://github.com/Alirezayoom/todo-app",
+      "live": "https://todo-app-inky-seven.vercel.app/"
+    },
+
+    {
+      "id": "3",
+      "cover": "src/assets/avatar.jpeg",
+      "name": "Modern Blog",
+      "technologies": [
+        { "id": 1, "name": "next", "icon": "src/assets/skills/nextjs.svg" },
+        {
+          "id": 2,
+          "name": "tailwind",
+          "icon": "src/assets/skills/tailwindcss.svg"
+        }
+      ],
+      "description": "Modern Blog app using NextJS, Tailwind, GraphQL and Hygraph.",
+      "repository": "https://github.com/Alirezayoom/modern-blog",
+      "live": "https://modern-blog-six.vercel.app"
+    },
+
+    {
+      "id": "4",
+      "cover": "src/assets/avatar.jpeg",
+      "name": "Real Estate",
+      "technologies": [
+        { "id": 1, "name": "next", "icon": "src/assets/skills/nextjs.svg" }
+      ],
+      "description": "Real estate app using NextJS, Chakra UI and Rest API.",
+      "repository": "https://github.com/Alirezayoom/real-estate",
+      "live": "https://real-estate-alirezayoom.vercel.app"
+    },
+
+    {
+      "id": "5",
+      "cover": "src/assets/avatar.jpeg",
+      "name": "Meetups",
+      "technologies": [
+        { "id": 1, "name": "next", "icon": "src/assets/skills/nextjs.svg" },
+        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+      ],
+      "description": "Meetups app using NextJS, CSS and MongoDB.",
+      "repository": "https://github.com/Alirezayoom/meetups",
+      "live": "https://meetups-inky.vercel.app"
+    },
+
+    {
+      "id": "6",
+      "cover": "src/assets/avatar.jpeg",
+      "name": "Next Events",
+      "technologies": [
+        { "id": 1, "name": "next", "icon": "src/assets/skills/nextjs.svg" },
+        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+      ],
+      "description": "Next Events app using NextJS, CSS and MongoDB.",
+      "repository": "https://github.com/Alirezayoom/next-events",
+      "live": "https://next-events-zeta.vercel.app/"
+    },
+
+    {
+      "id": "7",
+      "cover": "src/assets/avatar.jpeg",
+      "name": "NFT Landing Page",
+      "technologies": [
+        { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
+        {
+          "id": 2,
+          "name": "tailwind",
+          "icon": "src/assets/skills/tailwindcss.svg"
+        }
+      ],
+      "description": "NFT landing page using React and Tailwind.",
+      "repository": "https://github.com/Alirezayoom/nft-landing-page",
+      "live": "https://nft-landing-page-omega.vercel.app/"
+    },
+
+    {
+      "id": "8",
+      "cover": "src/assets/avatar.jpeg",
+      "name": "Flower Shop",
+      "technologies": [
+        { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
+        {
+          "id": 2,
+          "name": "tailwind",
+          "icon": "src/assets/skills/tailwindcss.svg"
+        }
+      ],
+      "description": "Flower shop using React and Tailwind.",
+      "repository": "https://github.com/Alirezayoom/flower-shop",
+      "live": "https://flower-shop-two.vercel.app/"
+    },
+
+    {
+      "id": "9",
+      "cover": "src/assets/avatar.jpeg",
+      "name": "Monsters Rolodex",
+      "technologies": [
+        { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
+        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+      ],
+      "description": "Monsters rolodex using React and CSS.",
+      "repository": "https://monsters-rolodex-lime.vercel.app/",
+      "live": "https://monsters-rolodex-lime.vercel.app/"
+    },
+
+    {
+      "id": "10",
+      "cover": "src/assets/avatar.jpeg",
+      "name": "Simple Form",
+      "technologies": [
+        { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
+        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+      ],
+      "description": "A simple Form using React and CSS.",
+      "repository": "https://github.com/Alirezayoom/small-form",
+      "live": "https://small-form.vercel.app/"
+    },
+
+    {
+      "id": "11",
+      "cover": "src/assets/avatar.jpeg",
+      "name": "Expense Tracker",
+      "technologies": [
+        { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
+        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+      ],
+      "description": "Expense tracker app using React and CSS.",
+      "repository": "https://github.com/Alirezayoom/expense-tracker",
+      "live": "https://expense-tracker-jet-pi.vercel.app/"
+    },
+
+    {
+      "id": "12",
+      "cover": "src/assets/avatar.jpeg",
+      "name": "Frontend Challenges",
+      "technologies": [
+        { "id": 1, "name": "html", "icon": "src/assets/skills/html.svg" },
+        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+      ],
+      "description": "Frontend Mentor challenges using Html and CSS.",
+      "repository": "https://github.com/Alirezayoom/frontend-challenges",
+      "live": "https://alirezayoom.github.io/frontend-challenges/"
+    },
+
+    {
+      "id": "13",
+      "cover": "src/assets/avatar.jpeg",
+      "name": "Nexter",
+      "technologies": [
+        { "id": 1, "name": "html", "icon": "src/assets/skills/html.svg" },
+        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+      ],
+      "description": "Nexter landing page using Html and CSS.",
+      "repository": "https://github.com/Alirezayoom/nexter",
+      "live": "https://alirezayoom.github.io/nexter/"
+    },
+
+    {
+      "id": "14",
+      "cover": "src/assets/avatar.jpeg",
+      "name": "Trillo",
+      "technologies": [
+        { "id": 1, "name": "html", "icon": "src/assets/skills/html.svg" },
+        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+      ],
+      "description": "Trillo using Html and CSS.",
+      "repository": "https://github.com/Alirezayoom/trillo",
+      "live": "https://alirezayoom.github.io/trillo/"
+    },
+
+    {
+      "id": "15",
+      "cover": "src/assets/avatar.jpeg",
+      "name": "Natours",
+      "technologies": [
+        { "id": 1, "name": "html", "icon": "src/assets/skills/html.svg" },
+        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+      ],
+      "description": "Natours landing page using Html and CSS.",
+      "repository": "https://github.com/Alirezayoom/natours",
+      "live": "https://alirezayoom.github.io/natours/"
+    },
+
+    {
+      "id": "16",
+      "cover": "src/assets/avatar.jpeg",
+      "name": "Omnifood",
+      "technologies": [
+        { "id": 1, "name": "html", "icon": "src/assets/skills/html.svg" },
+        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+      ],
+      "description": "Omnifood landing page using Html and CSS.",
+      "repository": "https://github.com/Alirezayoom/omnifood",
+      "live": "https://alirezayoom.github.io/omnifood/"
+    }
+  ]
+}
