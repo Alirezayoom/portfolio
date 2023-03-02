@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": "1",
-      "cover": "src/assets/avatar.jpeg",
+      "cover": "src/assets/covers/portfolio.svg",
       "name": "My Portfolio",
       "technologies": [
         { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
@@ -15,7 +15,7 @@
 
     {
       "id": "2",
-      "cover": "src/assets/avatar.jpeg",
+      "cover": "src/assets/covers/todo-app.svg",
       "name": "To-Do App",
       "technologies": [
         { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
@@ -37,7 +37,7 @@
 
     {
       "id": "3",
-      "cover": "src/assets/avatar.jpeg",
+      "cover": "src/assets/covers/blog.svg",
       "name": "Modern Blog",
       "technologies": [
         { "id": 1, "name": "next", "icon": "src/assets/skills/nextjs.svg" },
@@ -54,7 +54,7 @@
 
     {
       "id": "4",
-      "cover": "src/assets/avatar.jpeg",
+      "cover": "src/assets/covers/real-estate.svg",
       "name": "Real Estate",
       "technologies": [
         { "id": 1, "name": "next", "icon": "src/assets/skills/nextjs.svg" }
@@ -66,7 +66,7 @@
 
     {
       "id": "5",
-      "cover": "src/assets/avatar.jpeg",
+      "cover": "src/assets/covers/meetups.svg",
       "name": "Meetups",
       "technologies": [
         { "id": 1, "name": "next", "icon": "src/assets/skills/nextjs.svg" },
@@ -79,7 +79,7 @@
 
     {
       "id": "6",
-      "cover": "src/assets/avatar.jpeg",
+      "cover": "src/assets/covers/events.svg",
       "name": "Next Events",
       "technologies": [
         { "id": 1, "name": "next", "icon": "src/assets/skills/nextjs.svg" },
@@ -92,7 +92,7 @@
 
     {
       "id": "7",
-      "cover": "src/assets/avatar.jpeg",
+      "cover": "src/assets/covers/nft.svg",
       "name": "NFT Landing Page",
       "technologies": [
         { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
@@ -109,7 +109,7 @@
 
     {
       "id": "8",
-      "cover": "src/assets/avatar.jpeg",
+      "cover": "src/assets/covers/flower-shop.svg",
       "name": "Flower Shop",
       "technologies": [
         { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
@@ -126,7 +126,7 @@
 
     {
       "id": "9",
-      "cover": "src/assets/avatar.jpeg",
+      "cover": "src/assets/covers/monsters-rolodex.svg",
       "name": "Monsters Rolodex",
       "technologies": [
         { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
@@ -139,7 +139,7 @@
 
     {
       "id": "10",
-      "cover": "src/assets/avatar.jpeg",
+      "cover": "src/assets/covers/form.svg",
       "name": "Simple Form",
       "technologies": [
         { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
@@ -152,7 +152,7 @@
 
     {
       "id": "11",
-      "cover": "src/assets/avatar.jpeg",
+      "cover": "src/assets/covers/expense-tracker.svg",
       "name": "Expense Tracker",
       "technologies": [
         { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
@@ -165,7 +165,7 @@
 
     {
       "id": "12",
-      "cover": "src/assets/avatar.jpeg",
+      "cover": "src/assets/covers/frontend-challenges.svg",
       "name": "Frontend Challenges",
       "technologies": [
         { "id": 1, "name": "html", "icon": "src/assets/skills/html.svg" },
@@ -178,7 +178,7 @@
 
     {
       "id": "13",
-      "cover": "src/assets/avatar.jpeg",
+      "cover": "src/assets/covers/nexter.svg",
       "name": "Nexter",
       "technologies": [
         { "id": 1, "name": "html", "icon": "src/assets/skills/html.svg" },
@@ -191,7 +191,7 @@
 
     {
       "id": "14",
-      "cover": "src/assets/avatar.jpeg",
+      "cover": "src/assets/covers/trillo.svg",
       "name": "Trillo",
       "technologies": [
         { "id": 1, "name": "html", "icon": "src/assets/skills/html.svg" },
@@ -204,7 +204,7 @@
 
     {
       "id": "15",
-      "cover": "src/assets/avatar.jpeg",
+      "cover": "src/assets/covers/natours.svg",
       "name": "Natours",
       "technologies": [
         { "id": 1, "name": "html", "icon": "src/assets/skills/html.svg" },
@@ -217,7 +217,7 @@
 
     {
       "id": "16",
-      "cover": "src/assets/avatar.jpeg",
+      "cover": "src/assets/covers/omnifood.svg",
       "name": "Omnifood",
       "technologies": [
         { "id": 1, "name": "html", "icon": "src/assets/skills/html.svg" },
