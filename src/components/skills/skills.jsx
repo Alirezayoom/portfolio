@@ -42,10 +42,10 @@ export default function Skills() {
           <span>
             <img src={light} alt="pro tip" />
           </span>
-          <span className={classes["protip-text"]}>ProTip!</span>
+          <strong>ProTip!</strong>
           <span>
             I am also familiar with React-router, Next Auth, Redux, Markdown,
-            MySQL, Mongodb and Firebase.
+            GraphQL, Strapi, MySQL, Mongodb and Firebase.
           </span>
         </div>
       </div>
