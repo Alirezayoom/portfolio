@@ -27,8 +27,7 @@ const projects = [
       { id: 3, name: "react", icon: react },
       { id: 4, name: "javascript", icon: javascript },
     ],
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consequuntur nemo laborum. amet consectetur adipisicing elit. Repudiandae consequuntur nemo laborum.",
+    description: "Lorem ipsum.",
     repository: "https://github.com/Alirezayoom",
     live: "https://github.com/Alirezayoom",
   },
@@ -68,8 +67,7 @@ const projects = [
       { id: 1, name: "html", icon: html },
       { id: 2, name: "css", icon: css },
     ],
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consequuntur nemo laborum.",
+    description: "Lorem ipsum.",
     repository: "https://github.com/Alirezayoom",
     live: "https://github.com/Alirezayoom",
   },
@@ -81,8 +79,7 @@ const projects = [
       { id: 1, name: "html", icon: html },
       { id: 2, name: "css", icon: css },
     ],
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consequuntur nemo laborum.",
+    description: "Lorem ipsum.",
     repository: "https://github.com/Alirezayoom",
     live: "https://github.com/Alirezayoom",
   },
@@ -94,8 +91,7 @@ const projects = [
       { id: 1, name: "html", icon: html },
       { id: 2, name: "css", icon: css },
     ],
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae consequuntur nemo laborum.",
+    description: "Lorem ipsum.",
     repository: "https://github.com/Alirezayoom",
     live: "https://github.com/Alirezayoom",
   },
