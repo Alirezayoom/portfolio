@@ -1,7 +1,4 @@
 import classes from "./project.module.css";
-import avatar from "../../assets/avatar.jpeg";
-import github from "../../assets/github.svg";
-import arrow from "../../assets/arrow.svg";
 import projectJson from "../../../projects";
 
 export default function Project() {
@@ -13,7 +10,7 @@ export default function Project() {
           {projectJson.projects.map((project) => (
             <div key={project.id} className={classes.card}>
               <div className={classes["card-image"]}>
-                <img src={project.cover} alt={avatar} />
+                <img src={project.cover} alt={project.name} />
               </div>
               <div className={classes["card-description"]}>
                 <div className={classes["project-name"]}>{project.name}</div>
@@ -31,7 +28,7 @@ export default function Project() {
                   <a href={project.repository} target="_blank">
                     <button>
                       <span>
-                        <img src={github} alt="" />
+                        <img src="src/assets/github.svg" alt="github" />
                       </span>
                       Github
                     </button>
@@ -40,7 +37,7 @@ export default function Project() {
                     <button>
                       Visit
                       <span>
-                        <img src={arrow} alt="" />
+                        <img src="src/assets/arrow.svg" alt="arrow right" />
                       </span>
                     </button>
                   </a>
