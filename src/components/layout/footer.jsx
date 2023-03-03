@@ -7,16 +7,16 @@ export default function Footer() {
         <img src="src/assets/icons/ak.svg" alt="alireza karimi" />
       </div>
       <div className={classes.social}>
-        <a href="https://twitter.com/Alirezayoom">
+        <a href="https://twitter.com/Alirezayoom" target="_blank">
           <img src="src/assets/icons/twitter.svg" alt="twitter" />
         </a>
-        <a href="https://www.linkedin.com/in/alirezayoom">
+        <a href="https://www.linkedin.com/in/alirezayoom" target="_blank">
           <img src="src/assets/icons/linkedin.svg" alt="linkedin" />
         </a>
-        <a href="https://t.me/Alirezayoom">
+        <a href="https://t.me/Alirezayoom" target="_blank">
           <img src="src/assets/icons/telegram.svg" alt="telegram" />
         </a>
-        <a href="https://github.com/Alirezayoom">
+        <a href="https://github.com/Alirezayoom" target="_blank">
           <img src="src/assets/icons/github.svg" alt="github" />
         </a>
       </div>
