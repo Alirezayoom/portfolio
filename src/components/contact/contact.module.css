@@ -59,3 +59,9 @@
   background-color: #2f2f2f;
   cursor: pointer;
 }
+
+@media screen and (max-width: 64rem) {
+  .contact form {
+    max-width: 40rem;
+  }
+}
