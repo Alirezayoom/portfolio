@@ -74,4 +74,12 @@
     margin-bottom: 2.5rem;
     font-size: 1.75rem;
   }
+  .contact form {
+    max-width: 20rem;
+    grid-template-columns: 1fr;
+  }
+  .contact form button {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
