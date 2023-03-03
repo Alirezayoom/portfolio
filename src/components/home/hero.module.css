@@ -70,3 +70,21 @@
     padding: 0.875rem 3rem;
   }
 }
+
+@media screen and (max-width: 35rem) {
+  .avatar {
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1.5rem;
+  }
+  .info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .hero button {
+    padding: 0.625rem 2rem;
+    border: none;
+    border-radius: 0;
+    background-color: #222;
+  }
+}
