@@ -34,7 +34,9 @@ export default function Skills() {
         <div className={classes.skillswrapper}>
           {skills.map((skill) => (
             <div key={skill.name} className={classes.icons}>
-              <img src={skill.icon} alt={skill.name} />
+              <div className={classes.icon}>
+                <img src={skill.icon} alt={skill.name} />
+              </div>
             </div>
           ))}
         </div>

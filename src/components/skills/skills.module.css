@@ -13,22 +13,28 @@
   max-width: 60rem;
   margin: 0 auto 2rem;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   /* gap: 2rem; */
 }
 
 .icons {
-  width: 4rem;
-  margin: 0 auto;
+  /* width: 4rem; */
+  /* margin: 0 auto; */
+  padding: 0 1rem;
 }
 
-.icons > img {
+.icons > .icon {
+  width: 4rem;
+}
+
+.icons > .icon > img {
   width: 100%;
   filter: grayscale();
   transition: all 0.5s;
 }
 
-.icons > img:hover {
+.icons > .icon > img:hover {
   filter: none;
 }
 
