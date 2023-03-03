@@ -10,7 +10,7 @@ export default function Footer() {
         <a href="https://twitter.com/Alirezayoom">
           <img src="src/assets/icons/twitter.svg" alt="twitter" />
         </a>
-        <a href="https://www.linkedin.com/in/alirezayoom/">
+        <a href="https://www.linkedin.com/in/alirezayoom">
           <img src="src/assets/icons/linkedin.svg" alt="linkedin" />
         </a>
         <a href="https://t.me/Alirezayoom">
@@ -36,8 +36,8 @@ export default function Footer() {
       </div>
 
       <div className={classes.developer}>
-        Design & Developed By{" "}
-        <a href="https://github.com/Alirezayoom">Alireza Karimi</a> - 2023
+        2023 - Design & Developed by{" "}
+        <a href="https://github.com/Alirezayoom">Alireza Karimi</a>
       </div>
     </div>
   );
