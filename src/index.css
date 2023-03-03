@@ -12,6 +12,13 @@
   box-sizing: border-box;
 }
 
+input,
+textarea {
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 1rem;
+  font-family: "montserrat", Inter, sans-serif;
+}
+
 .container {
   max-width: 64rem;
   width: 100%;
@@ -22,10 +29,18 @@
 button {
   font-family: inherit;
   transition: 0.3s;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 64rem) {
+  input,
+  textarea {
+    font-size: 0.875rem;
+  }
 }
 
 @media screen and (max-width: 48rem) {
