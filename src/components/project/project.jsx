@@ -1,5 +1,5 @@
 import classes from "./project.module.css";
-import projectJson from "../../../projects";
+import projectJson from "../../../data/projects";
 
 export default function Project() {
   return (
