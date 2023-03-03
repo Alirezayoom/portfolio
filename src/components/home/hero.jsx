@@ -4,7 +4,7 @@ import classes from "./hero.module.css";
 
 export default function Hero() {
   return (
-    <header className={`${classes.hero}`}>
+    <div className={`${classes.hero}`}>
       <div className="container">
         <div className={classes.avatar}>
           <img src={avatar} alt="avatar" />
@@ -32,6 +32,6 @@ export default function Hero() {
           </button>
         </a>
       </div>
-    </header>
+    </div>
   );
 }
