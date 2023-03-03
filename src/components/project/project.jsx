@@ -28,7 +28,7 @@ export default function Project() {
                   <a href={project.repository} target="_blank">
                     <button>
                       <span>
-                        <img src="src/assets/github.svg" alt="github" />
+                        <img src="src/assets/icons/github.svg" alt="github" />
                       </span>
                       Github
                     </button>
@@ -37,7 +37,10 @@ export default function Project() {
                     <button>
                       Visit
                       <span>
-                        <img src="src/assets/arrow.svg" alt="arrow right" />
+                        <img
+                          src="src/assets/icons/arrow.svg"
+                          alt="arrow right"
+                        />
                       </span>
                     </button>
                   </a>

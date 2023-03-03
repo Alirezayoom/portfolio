@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className={classes.navbar}>
         <div className={classes.logo}>
           <a href="#">
-            <img src="src/assets/ak.svg" alt="alireza karimi" />
+            <img src="src/assets/icons/ak.svg" alt="alireza karimi" />
           </a>
         </div>
         <div className={classes.items}>

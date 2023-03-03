@@ -1,6 +1,6 @@
 import classes from "./skills.module.css";
 
-import light from "../../assets/light.svg";
+import light from "../../assets/icons/light.svg";
 
 import html from "../../assets/skills/html.svg";
 import css from "../../assets/skills/css.svg";
