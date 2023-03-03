@@ -12,7 +12,9 @@ export default function Navbar() {
     <nav className="container">
       <div className={classes.navbar}>
         <div className={classes.logo}>
-          <a href="#">ALIREZA KARIMI</a>
+          <a href="#">
+            <img src="src/assets/ak.svg" alt="alireza karimi" />
+          </a>
         </div>
         <div className={classes.items}>
           <ul>

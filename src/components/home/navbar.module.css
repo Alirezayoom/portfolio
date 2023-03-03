@@ -11,6 +11,14 @@
   list-style: none;
 }
 
+.logo {
+  height: 1.4rem;
+}
+
+.logo img {
+  height: 100%;
+}
+
 .items > ul > li > a,
 .logo a {
   text-decoration: none;
