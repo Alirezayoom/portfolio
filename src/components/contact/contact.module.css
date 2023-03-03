@@ -77,9 +77,14 @@
   .contact form {
     max-width: 20rem;
     grid-template-columns: 1fr;
+    gap: 0.875rem;
   }
   .contact form button {
     width: 100%;
     margin: 0 auto;
+  }
+  .contact input,
+  .contact textarea {
+    padding: 0.875rem 1rem;
   }
 }
