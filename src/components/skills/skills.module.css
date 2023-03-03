@@ -43,6 +43,13 @@
   margin: 0 auto;
 }
 
+.protip > span > span {
+  width: 1rem;
+}
+.protip img {
+  width: inherit;
+}
+
 @media screen and (max-width: 64rem) {
   .skillswrapper {
     max-width: 35rem;
@@ -78,6 +85,9 @@
   .protip {
     font-size: 0.875rem;
     max-width: 40rem;
+  }
+  .protip > span > span {
+    width: 0.875rem;
   }
   .skillswrapper {
     max-width: 20rem;
