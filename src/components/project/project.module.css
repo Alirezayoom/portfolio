@@ -1,5 +1,5 @@
 .project {
-  margin: 8rem 0;
+  margin: 6rem 0;
 }
 
 .project h2 {
@@ -110,5 +110,15 @@
   .cards {
     grid-template-columns: repeat(2, 1fr);
     max-width: 40rem;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .project {
+    margin: 4rem 0;
+  }
+  .project h2 {
+    margin-bottom: 2.5rem;
+    font-size: 1.75rem;
   }
 }

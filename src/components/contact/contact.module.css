@@ -65,3 +65,13 @@
     max-width: 40rem;
   }
 }
+
+@media screen and (max-width: 48rem) {
+  .contact {
+    padding: 4rem 0;
+  }
+  .contact h2 {
+    margin-bottom: 2.5rem;
+    font-size: 1.75rem;
+  }
+}

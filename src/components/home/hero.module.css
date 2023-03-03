@@ -52,6 +52,9 @@
 }
 
 @media screen and (max-width: 48rem) {
+  .hero {
+    margin: 6rem auto;
+  }
   .avatar {
     margin-bottom: 2rem;
   }
