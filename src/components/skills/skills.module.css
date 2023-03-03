@@ -50,6 +50,9 @@
   .protip {
     max-width: 48rem;
   }
+  .icons > .icon > img {
+    filter: none;
+  }
 }
 
 @media screen and (max-width: 48rem) {
