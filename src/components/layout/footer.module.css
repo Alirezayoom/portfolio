@@ -61,5 +61,8 @@
   color: #f1f1f1;
 }
 
-@media screen and (max-width: 27rem) {
+@media screen and (max-width: 48rem) {
+  .footer {
+    padding-top: 4rem;
+  }
 }
