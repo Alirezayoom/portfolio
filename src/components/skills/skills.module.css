@@ -15,12 +15,9 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* gap: 2rem; */
 }
 
 .icons {
-  /* width: 4rem; */
-  /* margin: 0 auto; */
   padding: 0 1rem;
 }
 
@@ -43,4 +40,14 @@
   justify-content: center;
   text-align: center;
   line-height: 1.6;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 64rem) {
+  .skillswrapper {
+    max-width: 35rem;
+  }
+  .protip {
+    max-width: 48rem;
+  }
 }
