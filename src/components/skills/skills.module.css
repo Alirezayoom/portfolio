@@ -53,11 +53,17 @@
 }
 
 @media screen and (max-width: 48rem) {
+  .skillswrapper {
+    row-gap: 1rem;
+  }
   .skills {
     padding: 4rem 0;
   }
   .skills h2 {
     margin-bottom: 2.5rem;
     font-size: 1.75rem;
+  }
+  .icons .icon > img {
+    width: 3rem;
   }
 }
