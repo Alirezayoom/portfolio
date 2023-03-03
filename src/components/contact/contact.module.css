@@ -9,3 +9,53 @@
   font-size: 2rem;
   text-align: center;
 }
+
+.contact form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+}
+
+.subject,
+.message {
+  grid-column: 1/-1;
+}
+
+.contact input,
+.contact textarea {
+  border: 0;
+  outline: 0;
+  padding: 1rem;
+  background-color: #333;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  background-color: #2f2f2f;
+}
+
+.contact textarea {
+  resize: none;
+}
+
+.contact button {
+  border: 0;
+  width: min-content;
+  padding: 0.875rem 3.5rem;
+  border: 0;
+  background-color: #333;
+  grid-column: 1/-1;
+  margin-left: auto;
+}
+
+.contact button:hover {
+  background-color: #2f2f2f;
+  cursor: pointer;
+}
