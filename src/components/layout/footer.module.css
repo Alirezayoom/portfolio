@@ -1,5 +1,28 @@
 .footer {
+  padding: 6rem 0 3rem;
   max-width: 64rem;
-  background-color: #444;
   margin: 0 auto;
+  text-align: center;
+}
+
+.footer .logo {
+  width: 4rem;
+  margin: 0 auto 1rem;
+}
+
+.footer .logo > img {
+  width: 100%;
+}
+
+.connect {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+.connect div span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
