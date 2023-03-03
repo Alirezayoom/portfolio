@@ -6,6 +6,20 @@ export default function Footer() {
       <div className={classes.logo}>
         <img src="src/assets/icons/ak.svg" alt="alireza karimi" />
       </div>
+      <div className={classes.social}>
+        <a href="https://twitter.com/Alirezayoom">
+          <img src="src/assets/icons/twitter.svg" alt="twitter" />
+        </a>
+        <a href="https://www.linkedin.com/in/alirezayoom/">
+          <img src="src/assets/icons/linkedin.svg" alt="linkedin" />
+        </a>
+        <a href="https://t.me/Alirezayoom">
+          <img src="src/assets/icons/telegram.svg" alt="telegram" />
+        </a>
+        <a href="https://github.com/Alirezayoom">
+          <img src="src/assets/icons/github.svg" alt="github" />
+        </a>
+      </div>
       <div className={classes.connect}>
         <div>
           <span>
@@ -20,13 +34,10 @@ export default function Footer() {
           </span>
         </div>
       </div>
-      <div className={classes.social}>
-        <img src="" alt="telegram" />
-        <img src="" alt="twitter" />
-        <img src="" alt="linkedin" />
-      </div>
-      <div>
-        Design & Developed By <a href="#">Alireza Karimi</a> - 2023
+
+      <div className={classes.developer}>
+        Design & Developed By{" "}
+        <a href="https://github.com/Alirezayoom">Alireza Karimi</a> - 2023
       </div>
     </div>
   );
