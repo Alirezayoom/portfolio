@@ -7,22 +7,37 @@
 
 .footer .logo {
   width: 4rem;
-  margin: 0 auto 1rem;
+  margin: 0 auto 1.5rem;
 }
 
 .footer .logo > img {
   width: 100%;
 }
 
+.social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.social img {
+  width: 1.5rem;
+}
+
 .connect {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  margin: 0 auto;
+  margin: 0 auto 0.5rem;
 }
 
 .connect div span {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+.developer {
+  font-size: 0.875rem;
 }
