@@ -27,21 +27,14 @@ export default function Project() {
                 <div className={classes["project-links"]}>
                   <a href={project.repository} target="_blank">
                     <button>
-                      <span>
-                        <img src="src/assets/icons/github.svg" alt="github" />
-                      </span>
+                      <img src="src/assets/icons/github.svg" alt="github" />
                       Github
                     </button>
                   </a>
                   <a href={project.live} target="_blank">
                     <button>
+                      <img src="src/assets/icons/globe.svg" alt="arrow right" />
                       Visit
-                      <span>
-                        <img
-                          src="src/assets/icons/arrow.svg"
-                          alt="arrow right"
-                        />
-                      </span>
                     </button>
                   </a>
                 </div>
