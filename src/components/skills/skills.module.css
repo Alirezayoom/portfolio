@@ -56,6 +56,9 @@
 }
 
 @media screen and (max-width: 48rem) {
+  .protip {
+    max-width: 40rem;
+  }
   .skillswrapper {
     row-gap: 1rem;
   }
