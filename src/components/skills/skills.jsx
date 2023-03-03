@@ -28,7 +28,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section className={`${classes.skills}`}>
+    <section className={classes.skills} id="skills">
       <div className="container">
         <h2>My Web Skills</h2>
         <div className={classes.skillswrapper}>

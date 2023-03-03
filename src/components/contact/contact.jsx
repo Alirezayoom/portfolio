@@ -2,7 +2,7 @@ import classes from "./contact.module.css";
 
 export default function Contact() {
   return (
-    <section className={classes.contact}>
+    <section className={classes.contact} id="contact">
       <div className="container">
         <h2>Contact Me</h2>
         <form>

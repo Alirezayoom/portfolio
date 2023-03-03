@@ -3,7 +3,7 @@ import projectJson from "../../../data/projects";
 
 export default function Project() {
   return (
-    <section className={classes.project}>
+    <section className={classes.project} id="projects">
       <div className={`container`}>
         <h2>My Projects</h2>
         <div className={classes.cards}>
