@@ -73,3 +73,25 @@
     width: 3rem;
   }
 }
+
+@media screen and (max-width: 35rem) {
+  .protip {
+    font-size: 0.875rem;
+    max-width: 40rem;
+  }
+  .skillswrapper {
+    max-width: 20rem;
+    row-gap: 0.625rem;
+    margin-bottom: 1.5rem;
+  }
+  .skills h2 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+  .icons .icon {
+    width: 2rem;
+  }
+  .icons .icon > img {
+    width: 2.5rem;
+  }
+}
