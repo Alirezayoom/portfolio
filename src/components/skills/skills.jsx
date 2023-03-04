@@ -1,29 +1,16 @@
 import classes from "./skills.module.css";
 
-import light from "../../assets/icons/light.svg";
-
-import html from "../../assets/skills/html.svg";
-import css from "../../assets/skills/css.svg";
-import sass from "../../assets/skills/sass.svg";
-import bootstrap from "../../assets/skills/bootstrap.svg";
-import tailwind from "../../assets/skills/tailwindcss.svg";
-import javascript from "../../assets/skills/javascript.svg";
-import typescript from "../../assets/skills/typescript.svg";
-import react from "../../assets/skills/react.svg";
-import next from "../../assets/skills/nextjs.svg";
-import git from "../../assets/skills/git.svg";
-
 const skills = [
-  { name: "html", icon: html },
-  { name: "css", icon: css },
-  { name: "sass", icon: sass },
-  { name: "bootstrap", icon: bootstrap },
-  { name: "tailwind", icon: tailwind },
-  { name: "javascirpt", icon: javascript },
-  { name: "typescript", icon: typescript },
-  { name: "react", icon: react },
-  { name: "next", icon: next },
-  { name: "git", icon: git },
+  { name: "html" },
+  { name: "css" },
+  { name: "sass" },
+  { name: "bootstrap" },
+  { name: "tailwind" },
+  { name: "javascript" },
+  { name: "typescript" },
+  { name: "react" },
+  { name: "next" },
+  { name: "git" },
 ];
 
 export default function Skills() {
@@ -35,7 +22,7 @@ export default function Skills() {
           {skills.map((skill) => (
             <div key={skill.name} className={classes.icons}>
               <div className={classes.icon}>
-                <img src={skill.icon} alt={skill.name} />
+                <img src={`/skills/${skill.name}.svg`} alt={skill.name} />
               </div>
             </div>
           ))}
@@ -43,7 +30,7 @@ export default function Skills() {
         <div className={classes.protip}>
           <span>
             <span>
-              <img src={light} alt="pro tip" />{" "}
+              <img src="/icons/light.svg" alt="pro tip" />{" "}
             </span>
             <strong>ProTip! </strong>I am also familiar with React-router, Next
             Auth, Redux, Markdown, GraphQL, Strapi, MySQL, Mongodb and Firebase.

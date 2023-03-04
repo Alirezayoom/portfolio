@@ -2,11 +2,11 @@
   "projects": [
     {
       "id": "1",
-      "cover": "src/assets/covers/portfolio.svg",
+      "cover": "portfolio",
       "name": "My Portfolio",
       "technologies": [
-        { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
-        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+        { "id": 1, "name": "react" },
+        { "id": 2, "name": "css" }
       ],
       "description": "My portfolio using React and CSS.",
       "repository": "https://github.com/Alirezayoom",
@@ -15,20 +15,12 @@
 
     {
       "id": "2",
-      "cover": "src/assets/covers/todo-app.svg",
+      "cover": "todo-app",
       "name": "To-Do App",
       "technologies": [
-        { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
-        {
-          "id": 2,
-          "name": "typescript",
-          "icon": "src/assets/skills/typescript.svg"
-        },
-        {
-          "id": 3,
-          "name": "tailwind",
-          "icon": "src/assets/skills/tailwindcss.svg"
-        }
+        { "id": 1, "name": "react" },
+        { "id": 2, "name": "typescript" },
+        { "id": 3, "name": "tailwind" }
       ],
       "description": "To-Do app using React, Typescript and Tailwind.",
       "repository": "https://github.com/Alirezayoom/todo-app",
@@ -37,15 +29,11 @@
 
     {
       "id": "3",
-      "cover": "src/assets/covers/blog.svg",
+      "cover": "blog",
       "name": "Modern Blog",
       "technologies": [
-        { "id": 1, "name": "next", "icon": "src/assets/skills/nextjs.svg" },
-        {
-          "id": 2,
-          "name": "tailwind",
-          "icon": "src/assets/skills/tailwindcss.svg"
-        }
+        { "id": 1, "name": "next" },
+        { "id": 2, "name": "tailwind" }
       ],
       "description": "Modern Blog app using NextJS, Tailwind, GraphQL and Hygraph.",
       "repository": "https://github.com/Alirezayoom/modern-blog",
@@ -54,11 +42,9 @@
 
     {
       "id": "4",
-      "cover": "src/assets/covers/real-estate.svg",
+      "cover": "real-estate",
       "name": "Real Estate",
-      "technologies": [
-        { "id": 1, "name": "next", "icon": "src/assets/skills/nextjs.svg" }
-      ],
+      "technologies": [{ "id": 1, "name": "next" }],
       "description": "Real estate app using NextJS, Chakra UI and Rest API.",
       "repository": "https://github.com/Alirezayoom/real-estate",
       "live": "https://real-estate-alirezayoom.vercel.app"
@@ -66,11 +52,11 @@
 
     {
       "id": "5",
-      "cover": "src/assets/covers/meetups.svg",
+      "cover": "meetups",
       "name": "Meetups",
       "technologies": [
-        { "id": 1, "name": "next", "icon": "src/assets/skills/nextjs.svg" },
-        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+        { "id": 1, "name": "next" },
+        { "id": 2, "name": "css" }
       ],
       "description": "Meetups app using NextJS, CSS and MongoDB.",
       "repository": "https://github.com/Alirezayoom/meetups",
@@ -79,11 +65,11 @@
 
     {
       "id": "6",
-      "cover": "src/assets/covers/events.svg",
+      "cover": "events",
       "name": "Next Events",
       "technologies": [
-        { "id": 1, "name": "next", "icon": "src/assets/skills/nextjs.svg" },
-        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+        { "id": 1, "name": "next" },
+        { "id": 2, "name": "css" }
       ],
       "description": "Next Events app using NextJS, CSS and MongoDB.",
       "repository": "https://github.com/Alirezayoom/next-events",
@@ -92,15 +78,11 @@
 
     {
       "id": "7",
-      "cover": "src/assets/covers/nft.svg",
+      "cover": "nft",
       "name": "NFT Landing Page",
       "technologies": [
-        { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
-        {
-          "id": 2,
-          "name": "tailwind",
-          "icon": "src/assets/skills/tailwindcss.svg"
-        }
+        { "id": 1, "name": "react" },
+        { "id": 2, "name": "tailwind" }
       ],
       "description": "NFT landing page using React and Tailwind.",
       "repository": "https://github.com/Alirezayoom/nft-landing-page",
@@ -109,15 +91,11 @@
 
     {
       "id": "8",
-      "cover": "src/assets/covers/flower-shop.svg",
+      "cover": "flower-shop",
       "name": "Flower Shop",
       "technologies": [
-        { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
-        {
-          "id": 2,
-          "name": "tailwind",
-          "icon": "src/assets/skills/tailwindcss.svg"
-        }
+        { "id": 1, "name": "react" },
+        { "id": 2, "name": "tailwind" }
       ],
       "description": "Flower shop using React and Tailwind.",
       "repository": "https://github.com/Alirezayoom/flower-shop",
@@ -126,11 +104,11 @@
 
     {
       "id": "9",
-      "cover": "src/assets/covers/monsters-rolodex.svg",
+      "cover": "monsters-rolodex",
       "name": "Monsters Rolodex",
       "technologies": [
-        { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
-        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+        { "id": 1, "name": "react" },
+        { "id": 2, "name": "css" }
       ],
       "description": "Monsters rolodex using React and CSS.",
       "repository": "https://monsters-rolodex-lime.vercel.app/",
@@ -139,11 +117,11 @@
 
     {
       "id": "10",
-      "cover": "src/assets/covers/form.svg",
+      "cover": "form",
       "name": "Simple Form",
       "technologies": [
-        { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
-        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+        { "id": 1, "name": "react" },
+        { "id": 2, "name": "css" }
       ],
       "description": "A simple Form using React and CSS.",
       "repository": "https://github.com/Alirezayoom/small-form",
@@ -152,11 +130,11 @@
 
     {
       "id": "11",
-      "cover": "src/assets/covers/expense-tracker.svg",
+      "cover": "expense-tracker",
       "name": "Expense Tracker",
       "technologies": [
-        { "id": 1, "name": "react", "icon": "src/assets/skills/react.svg" },
-        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+        { "id": 1, "name": "react" },
+        { "id": 2, "name": "css" }
       ],
       "description": "Expense tracker app using React and CSS.",
       "repository": "https://github.com/Alirezayoom/expense-tracker",
@@ -165,11 +143,11 @@
 
     {
       "id": "12",
-      "cover": "src/assets/covers/frontend-challenges.svg",
+      "cover": "frontend-challenges",
       "name": "Frontend Challenges",
       "technologies": [
-        { "id": 1, "name": "html", "icon": "src/assets/skills/html.svg" },
-        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+        { "id": 1, "name": "html" },
+        { "id": 2, "name": "css" }
       ],
       "description": "Frontend Mentor challenges using Html and CSS.",
       "repository": "https://github.com/Alirezayoom/frontend-challenges",
@@ -178,12 +156,12 @@
 
     {
       "id": "13",
-      "cover": "src/assets/covers/nexter.svg",
+      "cover": "nexter",
       "name": "Nexter",
       "technologies": [
-        { "id": 1, "name": "html", "icon": "src/assets/skills/html.svg" },
-        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" },
-        { "id": 3, "name": "sass", "icon": "src/assets/skills/sass.svg" }
+        { "id": 1, "name": "html" },
+        { "id": 2, "name": "css" },
+        { "id": 3, "name": "sass" }
       ],
       "description": "Nexter landing page using Html, CSS and Sass.",
       "repository": "https://github.com/Alirezayoom/nexter",
@@ -192,12 +170,12 @@
 
     {
       "id": "14",
-      "cover": "src/assets/covers/trillo.svg",
+      "cover": "trillo",
       "name": "Trillo",
       "technologies": [
-        { "id": 1, "name": "html", "icon": "src/assets/skills/html.svg" },
-        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" },
-        { "id": 3, "name": "sass", "icon": "src/assets/skills/sass.svg" }
+        { "id": 1, "name": "html" },
+        { "id": 2, "name": "css" },
+        { "id": 3, "name": "sass" }
       ],
       "description": "Trillo app using Html, CSS and Sass.",
       "repository": "https://github.com/Alirezayoom/trillo",
@@ -206,11 +184,11 @@
 
     {
       "id": "15",
-      "cover": "src/assets/covers/natours.svg",
+      "cover": "natours",
       "name": "Natours",
       "technologies": [
-        { "id": 1, "name": "html", "icon": "src/assets/skills/html.svg" },
-        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+        { "id": 1, "name": "html" },
+        { "id": 2, "name": "css" }
       ],
       "description": "Natours landing page using Html and CSS.",
       "repository": "https://github.com/Alirezayoom/natours",
@@ -219,11 +197,11 @@
 
     {
       "id": "16",
-      "cover": "src/assets/covers/omnifood.svg",
+      "cover": "omnifood",
       "name": "Omnifood",
       "technologies": [
-        { "id": 1, "name": "html", "icon": "src/assets/skills/html.svg" },
-        { "id": 2, "name": "css", "icon": "src/assets/skills/css.svg" }
+        { "id": 1, "name": "html" },
+        { "id": 2, "name": "css" }
       ],
       "description": "Omnifood landing page using Html and CSS.",
       "repository": "https://github.com/Alirezayoom/omnifood",

@@ -1,6 +1,3 @@
-import avatar from "../../assets/avatar.jpeg";
-import arrow from "../../assets/icons/arrow.svg";
-
 import classes from "./hero.module.css";
 
 export default function Hero() {
@@ -8,7 +5,7 @@ export default function Hero() {
     <div className={`${classes.hero}`}>
       <div className="container">
         <div className={classes.avatar}>
-          <img src={avatar} alt="avatar" />
+          <img src="/avatar.jpeg" alt="avatar" />
         </div>
         <div className={classes.info}>
           <h1>Hi, I'm Alireza Karimi</h1>
@@ -17,7 +14,7 @@ export default function Hero() {
         <a href="https://www.linkedin.com/in/alirezayoom/" target="_blank">
           <button>
             Linkedin
-            <img src={arrow} alt="arrow" className={classes.arrow} />
+            <img src="/icons/arrow.svg" alt="arrow" className={classes.arrow} />
           </button>
         </a>
       </div>

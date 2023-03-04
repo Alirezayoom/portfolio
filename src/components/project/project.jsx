@@ -10,14 +10,17 @@ export default function Project() {
           {projectJson.projects.map((project) => (
             <div key={project.id} className={classes.card}>
               <div className={classes["card-image"]}>
-                <img src={project.cover} alt={project.name} />
+                <img src={`/covers/${project.cover}.svg`} alt={project.name} />
               </div>
               <div className={classes["card-description"]}>
                 <div className={classes["project-name"]}>{project.name}</div>
                 <div className={classes["project-technologies"]}>
                   {project.technologies.map((technology) => (
                     <div key={technology.name}>
-                      <img src={technology.icon} alt={technology.name} />
+                      <img
+                        src={`/skills/${technology.name}.svg`}
+                        alt={technology.name}
+                      />
                     </div>
                   ))}
                 </div>
@@ -27,13 +30,13 @@ export default function Project() {
                 <div className={classes["project-links"]}>
                   <a href={project.repository} target="_blank">
                     <button>
-                      <img src="src/assets/icons/github.svg" alt="github" />
+                      <img src="/icons/github.svg" alt="github" />
                       Github
                     </button>
                   </a>
                   <a href={project.live} target="_blank">
                     <button>
-                      <img src="src/assets/icons/globe.svg" alt="arrow right" />
+                      <img src="/icons/globe.svg" alt="globe" />
                       Visit
                     </button>
                   </a>
