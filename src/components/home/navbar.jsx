@@ -1,5 +1,7 @@
 import classes from "./navbar.module.css";
 
+import ak from "../../assets/icons/ak.svg";
+
 const items = [
   { name: "Home", link: "#" },
   { name: "Skills", link: "#skills" },
@@ -13,7 +15,7 @@ export default function Navbar() {
       <div className={classes.navbar}>
         <div className={classes.logo}>
           <a href="#">
-            <img src="src/assets/icons/ak.svg" alt="alireza karimi" />
+            <img src={ak} alt="alireza karimi" />
           </a>
         </div>
         <div className={classes.items}>

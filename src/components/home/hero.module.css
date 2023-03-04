@@ -47,8 +47,9 @@
 }
 
 .arrow {
+  width: 0.875rem;
   margin-left: 0.4rem;
-  animation: 0.2s;
+  transform: translateY(0.05rem);
 }
 
 @media screen and (max-width: 48rem) {
