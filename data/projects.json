@@ -9,8 +9,8 @@
         { "id": 2, "name": "css" }
       ],
       "description": "My portfolio using React and CSS.",
-      "repository": "https://github.com/Alirezayoom",
-      "live": "https://github.com/Alirezayoom"
+      "repository": "https://github.com/Alirezayoom/portfolio",
+      "live": "https://alirezayoom.vercel.app"
     },
 
     {
@@ -143,11 +143,26 @@
 
     {
       "id": "12",
+      "cover": "javascript-projects",
+      "name": "Javascript Projects",
+      "technologies": [
+        { "id": 1, "name": "html" },
+        { "id": 2, "name": "css" },
+        { "id": 3, "name": "javascript" }
+      ],
+      "description": "My collection of Javascript mini projects.",
+      "repository": "https://github.com/Alirezayoom/expense-tracker",
+      "live": "https://expense-tracker-jet-pi.vercel.app/"
+    },
+
+    {
+      "id": "13",
       "cover": "frontend-challenges",
       "name": "Frontend Challenges",
       "technologies": [
         { "id": 1, "name": "html" },
-        { "id": 2, "name": "css" }
+        { "id": 2, "name": "css" },
+        { "id": 3, "name": "javascript" }
       ],
       "description": "Frontend Mentor challenges using Html and CSS.",
       "repository": "https://github.com/Alirezayoom/frontend-challenges",
@@ -155,7 +170,7 @@
     },
 
     {
-      "id": "13",
+      "id": "14",
       "cover": "nexter",
       "name": "Nexter",
       "technologies": [
@@ -169,7 +184,7 @@
     },
 
     {
-      "id": "14",
+      "id": "15",
       "cover": "trillo",
       "name": "Trillo",
       "technologies": [
@@ -183,7 +198,7 @@
     },
 
     {
-      "id": "15",
+      "id": "16",
       "cover": "natours",
       "name": "Natours",
       "technologies": [
@@ -196,12 +211,13 @@
     },
 
     {
-      "id": "16",
+      "id": "17",
       "cover": "omnifood",
       "name": "Omnifood",
       "technologies": [
         { "id": 1, "name": "html" },
-        { "id": 2, "name": "css" }
+        { "id": 2, "name": "css" },
+        { "id": 3, "name": "javascript" }
       ],
       "description": "Omnifood landing page using Html and CSS.",
       "repository": "https://github.com/Alirezayoom/omnifood",
