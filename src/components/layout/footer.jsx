@@ -36,8 +36,9 @@ export default function Footer() {
       </div>
 
       <div className={classes.developer}>
-        2023 - Design & Developed by{" "}
+        Design & Developed by{" "}
         <a href="https://github.com/Alirezayoom">Alireza Karimi</a>
+        <div>2023</div>
       </div>
     </div>
   );
