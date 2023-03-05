@@ -34,8 +34,9 @@ export default function Skills() {
             <span>
               <img src="/icons/light.svg" alt="pro tip" />{" "}
             </span>
-            <strong>ProTip! </strong>I am also familiar with React-router, Next
-            Auth, Redux, Markdown, GraphQL, Strapi, MySQL, Mongodb and Firebase.
+            <strong>ProTip! </strong>I am also familiar and worked with React
+            router, Redux, Styled components, Next auth, Markdown, GraphQL,
+            Strapi, MySQL, Mongodb and Firebase.
           </span>
         </div>
       </div>
