@@ -35,6 +35,7 @@ button {
 
 a {
   text-decoration: none;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 @media screen and (max-width: 64rem) {
