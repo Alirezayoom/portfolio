@@ -40,7 +40,9 @@ export default function Navbar() {
           <ul className={` ${menu === true && `${classes.menu}`}`}>
             {items.map((item) => (
               <li key={item.name}>
-                <a href={item.link}>{item.name}</a>
+                <a href={item.link} onClick={() => setMenu(false)}>
+                  {item.name}
+                </a>
               </li>
             ))}
           </ul>
