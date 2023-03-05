@@ -24,13 +24,13 @@ export default function Footer() {
         <div>
           <span>
             <img src="/icons/phone.svg" alt="phone" />
-            +93789908646
+            <a href="tel:0093789908646">+93789908646</a>
           </span>
         </div>
         <div>
           <span>
             <img src="/icons/email.svg" alt="email" />
-            alirezayoom@gmail.com
+            <a href="mailto:alirezayoom@gmail.com">alirezayoom@gmail.com</a>
           </span>
         </div>
       </div>
