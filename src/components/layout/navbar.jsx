@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import classes from "./navbar.module.css";
 
 const items = [
@@ -8,6 +10,8 @@ const items = [
 ];
 
 export default function Navbar() {
+  const [menu, setMenu] = useState(false);
+
   return (
     <nav className="container">
       <div className={classes.navbar}>
@@ -17,7 +21,23 @@ export default function Navbar() {
           </a>
         </div>
         <div className={classes.items}>
-          <ul>
+          <div className={`${classes.toggle}`} onClick={() => setMenu(!menu)}>
+            <img
+              className={`${classes.open} ${
+                menu === true && `${classes.openmenu}`
+              }  `}
+              src="/icons/close.svg"
+              alt="toggle navbar"
+            />
+            <img
+              className={`${classes.close} ${
+                menu === false && `${classes.closemenu}`
+              } `}
+              src="/icons/open.svg"
+              alt="toggle navbar"
+            />
+          </div>
+          <ul className={` ${menu === true && `${classes.menu}`}`}>
             {items.map((item) => (
               <li key={item.name}>
                 <a href={item.link}>{item.name}</a>
