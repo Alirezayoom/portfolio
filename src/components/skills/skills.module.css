@@ -21,17 +21,17 @@
   padding: 0 1rem;
 }
 
-.icons > .icon {
+.icon {
   width: 4rem;
 }
 
-.icons > .icon > img {
+.icon > img {
   width: 100%;
   filter: grayscale();
   transition: all 0.5s;
 }
 
-.icons > .icon > img:hover {
+.icon > img:hover {
   filter: none;
 }
 
@@ -57,7 +57,7 @@
   .protip {
     max-width: 48rem;
   }
-  .icons > .icon > img {
+  .icon > img {
     filter: none;
   }
 }
@@ -76,7 +76,7 @@
     margin-bottom: 2.5rem;
     font-size: 1.75rem;
   }
-  .icons .icon > img {
+  .icon > img {
     width: 3rem;
   }
 }
@@ -98,10 +98,10 @@
     margin-bottom: 2rem;
     font-size: 1.5rem;
   }
-  .icons .icon {
+  .icon {
     width: 2rem;
   }
-  .icons .icon > img {
+  .icon > img {
     width: 2.5rem;
   }
 }
