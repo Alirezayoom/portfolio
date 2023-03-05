@@ -1,12 +1,12 @@
+import Avatar from "./avatar";
+
 import classes from "./hero.module.css";
 
 export default function Hero() {
   return (
     <div className={`${classes.hero}`}>
       <div className="container">
-        <div className={classes.avatar}>
-          <img src="/avatar.jpeg" alt="avatar" />
-        </div>
+        <Avatar />
         <div className={classes.info}>
           <h1>Hi, I'm Alireza Karimi</h1>
           <h2>Front-end Web Developer</h2>

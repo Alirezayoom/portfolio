@@ -1,0 +1,25 @@
+.avatar {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 20rem;
+  overflow: hidden;
+  margin: 0rem auto 2.5rem;
+}
+
+.avatar > img {
+  height: 100%;
+}
+
+@media screen and (max-width: 48rem) {
+  .avatar {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 35rem) {
+  .avatar {
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1.5rem;
+  }
+}
