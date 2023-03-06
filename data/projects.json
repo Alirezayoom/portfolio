@@ -151,8 +151,8 @@
         { "id": 3, "name": "javascript" }
       ],
       "description": "My collection of Javascript mini projects.",
-      "repository": "https://github.com/Alirezayoom/expense-tracker",
-      "live": "https://expense-tracker-jet-pi.vercel.app/"
+      "repository": "https://github.com/Alirezayoom/javascript-practices",
+      "live": "https://alirezayoom.github.io/javascript-practices/"
     },
 
     {
