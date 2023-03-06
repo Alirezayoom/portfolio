@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 
 import classes from "./contact.module.css";
@@ -7,6 +7,11 @@ import Notification from "./notification";
 export default function Contact() {
   const form = useRef();
   const [status, setStatus] = useState();
+
+  useEffect(() => {
+    const timer = setTimeout(() => setStatus(), 3000);
+    return () => clearTimeout(timer);
+  }, [status]);
 
   const sendEmail = (e) => {
     e.preventDefault();
