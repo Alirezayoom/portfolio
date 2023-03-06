@@ -24,7 +24,7 @@ export default function Footer() {
         <div>
           <span>
             <img src="/icons/phone.svg" alt="phone" />
-            <a href="tel:0093789908646">+93789908646</a>
+            <a href="tel:0093789908646">+93 (0)789908646</a>
           </span>
         </div>
         <div>
