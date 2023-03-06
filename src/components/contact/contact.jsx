@@ -1,13 +1,17 @@
-import React, { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 import classes from "./contact.module.css";
+import Notification from "./notification";
 
 export default function Contact() {
   const form = useRef();
+  const [status, setStatus] = useState();
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    setStatus("sending");
 
     emailjs
       .sendForm(
@@ -18,14 +22,38 @@ export default function Contact() {
       )
       .then(
         (result) => {
+          setStatus("success");
           console.log("sent");
           e.target.reset();
         },
         (error) => {
+          setStatus("faild");
           console.log("error");
         }
       );
   };
+
+  let notification;
+  if (status === "sending") {
+    notification = {
+      status: "Sending",
+      message: "Your message is sending.",
+    };
+  }
+
+  if (status === "success") {
+    notification = {
+      status: "Success",
+      message: "Your message sent successfully",
+    };
+  }
+
+  if (status === "faild") {
+    notification = {
+      status: "Faild",
+      message: "Something went wrong.",
+    };
+  }
 
   return (
     <section className={classes.contact} id="contact">
@@ -47,6 +75,13 @@ export default function Contact() {
           <button type="submit">Send</button>
         </form>
       </div>
+
+      {status && (
+        <Notification
+          status={notification.status}
+          message={notification.message}
+        />
+      )}
     </section>
   );
 }
