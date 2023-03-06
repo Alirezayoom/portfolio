@@ -41,7 +41,7 @@ export default function Contact() {
   let notification;
   if (status === "sending") {
     notification = {
-      status: "Sending",
+      status: "Sending...",
       message: "Your message is sending.",
     };
   }
@@ -53,7 +53,7 @@ export default function Contact() {
     };
   }
 
-  if (status === "faild") {
+  if (status === "faild!") {
     notification = {
       status: "Faild",
       message: "Something went wrong.",
