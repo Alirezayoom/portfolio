@@ -72,16 +72,19 @@
   }
   .items > ul {
     position: absolute;
+
     opacity: 0;
     transform: translateX(20rem);
+    height: 100vh;
 
-    top: 3rem;
-    right: 1rem;
+    top: 3.5rem;
+    right: 0rem;
 
     background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
     text-align: center;
 
-    padding: 2rem 4rem;
+    padding: 0 4rem 4rem;
 
     gap: 1.5rem;
     flex-direction: column;
@@ -90,6 +93,12 @@
     justify-content: center;
 
     transition: ease-out 0.3s;
+  }
+  .items ul > li > a {
+    color: #ccc;
+  }
+  .items > ul > li > a:hover {
+    color: #fff;
   }
   .items .menu {
     opacity: 1;
