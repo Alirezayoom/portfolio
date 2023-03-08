@@ -28,13 +28,13 @@ export default function Project() {
                   {project.description}
                 </div>
                 <div className={classes["project-links"]}>
-                  <a href={project.repository} target="_blank">
+                  <a href={project.repository}>
                     <button>
                       <img src="/icons/github.svg" alt="github" />
                       Github
                     </button>
                   </a>
-                  <a href={project.live} target="_blank">
+                  <a href={project.live}>
                     <button>
                       <img src="/icons/globe.svg" alt="globe" />
                       Visit
