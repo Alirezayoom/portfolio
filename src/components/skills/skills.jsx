@@ -21,11 +21,11 @@ export default function Skills() {
         <div className={classes.skillswrapper}>
           {skills.map((skill) => (
             <div key={skill.name} className={classes.icons}>
-              <a href={skill.link} target="_blank">
-                <div className={classes.icon}>
-                  <img src={`/skills/${skill.name}.svg`} alt={skill.name} />
-                </div>
-              </a>
+              {/* <a href={skill.link} target="_blank"> */}
+              <div className={classes.icon}>
+                <img src={`/skills/${skill.name}.svg`} alt={skill.name} />
+              </div>
+              {/* </a> */}
             </div>
           ))}
         </div>
