@@ -15,6 +15,20 @@
 
     {
       "id": "2",
+      "cover": "hangman",
+      "name": "Hangman",
+      "technologies": [
+        { "id": 1, "name": "react" },
+        { "id": 2, "name": "typescript" },
+        { "id": 3, "name": "css" }
+      ],
+      "description": "Hangman game using React, Typescript and CSS.",
+      "repository": "https://github.com/Alirezayoom/hangman",
+      "live": "https://hangman-wheat.vercel.app/"
+    },
+
+    {
+      "id": "2",
       "cover": "todo-app",
       "name": "To-Do App",
       "technologies": [
@@ -111,8 +125,21 @@
         { "id": 2, "name": "css" }
       ],
       "description": "Monsters rolodex using React and CSS.",
-      "repository": "https://monsters-rolodex-lime.vercel.app/",
+      "repository": "https://github.com/Alirezayoom/monsters-rolodex",
       "live": "https://monsters-rolodex-lime.vercel.app/"
+    },
+
+    {
+      "id": "91",
+      "cover": "react-meals",
+      "name": "React Meals",
+      "technologies": [
+        { "id": 1, "name": "react" },
+        { "id": 2, "name": "tailwind" }
+      ],
+      "description": "React Meals app using React and Tailwind.",
+      "repository": "https://github.com/Alirezayoom/react-meals",
+      "live": "https://react-meals-rosy.vercel.app/"
     },
 
     {
