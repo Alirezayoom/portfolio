@@ -27,7 +27,7 @@
     },
     {
       "id": "0",
-      "cover": "portfolio.png",
+      "cover": "portfolio.jpg",
       "name": "My Portfolio",
       "technologies": [
         { "id": 1, "name": "react" },
