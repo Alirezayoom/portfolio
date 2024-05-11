@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": "1",
-      "cover": "portfolio",
+      "cover": "portfolio.png",
       "name": "My Portfolio",
       "technologies": [
         { "id": 1, "name": "react" },
@@ -15,7 +15,7 @@
 
     {
       "id": "2",
-      "cover": "hangman",
+      "cover": "hangman.png",
       "name": "Hangman",
       "technologies": [
         { "id": 1, "name": "react" },
@@ -29,7 +29,7 @@
 
     {
       "id": "2",
-      "cover": "todo-app",
+      "cover": "to-do.png",
       "name": "To-Do App",
       "technologies": [
         { "id": 1, "name": "react" },
@@ -43,7 +43,7 @@
 
     {
       "id": "3",
-      "cover": "blog",
+      "cover": "blog.jpg",
       "name": "Modern Blog",
       "technologies": [
         { "id": 1, "name": "next" },
@@ -56,7 +56,7 @@
 
     {
       "id": "4",
-      "cover": "real-estate",
+      "cover": "real-estate.jpg",
       "name": "Real Estate",
       "technologies": [{ "id": 1, "name": "next" }],
       "description": "Real estate app using NextJS, Chakra UI and Rest API.",
@@ -66,7 +66,7 @@
 
     {
       "id": "5",
-      "cover": "meetups",
+      "cover": "meetups.png",
       "name": "Meetups",
       "technologies": [
         { "id": 1, "name": "next" },
@@ -79,7 +79,7 @@
 
     {
       "id": "6",
-      "cover": "events",
+      "cover": "events.jpg",
       "name": "Next Events",
       "technologies": [
         { "id": 1, "name": "next" },
@@ -92,7 +92,7 @@
 
     {
       "id": "7",
-      "cover": "nft",
+      "cover": "nft.jpg",
       "name": "NFT Landing Page",
       "technologies": [
         { "id": 1, "name": "react" },
@@ -105,7 +105,7 @@
 
     {
       "id": "8",
-      "cover": "flower-shop",
+      "cover": "flowers-shop.jpg",
       "name": "Flower Shop",
       "technologies": [
         { "id": 1, "name": "react" },
@@ -118,7 +118,7 @@
 
     {
       "id": "9",
-      "cover": "monsters-rolodex",
+      "cover": "monsters.jpg",
       "name": "Monsters Rolodex",
       "technologies": [
         { "id": 1, "name": "react" },
@@ -131,7 +131,7 @@
 
     {
       "id": "91",
-      "cover": "react-meals",
+      "cover": "meals.jpg",
       "name": "React Meals",
       "technologies": [
         { "id": 1, "name": "react" },
@@ -144,7 +144,7 @@
 
     {
       "id": "10",
-      "cover": "form",
+      "cover": "users.png",
       "name": "Simple Form",
       "technologies": [
         { "id": 1, "name": "react" },
@@ -157,7 +157,7 @@
 
     {
       "id": "11",
-      "cover": "expense-tracker",
+      "cover": "expense-tracker.png",
       "name": "Expense Tracker",
       "technologies": [
         { "id": 1, "name": "react" },
@@ -170,7 +170,7 @@
 
     {
       "id": "12",
-      "cover": "javascript-projects",
+      "cover": "js.png",
       "name": "Javascript Projects",
       "technologies": [
         { "id": 1, "name": "html" },
@@ -184,7 +184,7 @@
 
     {
       "id": "13",
-      "cover": "frontend-challenges",
+      "cover": "frontend.jpg",
       "name": "Frontend Challenges",
       "technologies": [
         { "id": 1, "name": "html" },
@@ -198,7 +198,7 @@
 
     {
       "id": "14",
-      "cover": "nexter",
+      "cover": "nexter.jpg",
       "name": "Nexter",
       "technologies": [
         { "id": 1, "name": "html" },
@@ -212,7 +212,7 @@
 
     {
       "id": "15",
-      "cover": "trillo",
+      "cover": "trillo.jpg",
       "name": "Trillo",
       "technologies": [
         { "id": 1, "name": "html" },
@@ -226,7 +226,7 @@
 
     {
       "id": "16",
-      "cover": "natours",
+      "cover": "natours.jpg",
       "name": "Natours",
       "technologies": [
         { "id": 1, "name": "html" },
@@ -239,7 +239,7 @@
 
     {
       "id": "17",
-      "cover": "omnifood",
+      "cover": "omnifood.jpg",
       "name": "Omnifood",
       "technologies": [
         { "id": 1, "name": "html" },

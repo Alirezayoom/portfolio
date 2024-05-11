@@ -10,7 +10,7 @@ export default function Project() {
           {projectJson.projects.map((project) => (
             <div key={project.id} className={classes.card}>
               <div className={classes["card-image"]}>
-                <img src={`/covers/${project.cover}.svg`} alt={project.name} />
+                <img src={`/covers/${project.cover}`} alt={project.name} />
               </div>
               <div className={classes["card-description"]}>
                 <div className={classes["project-name"]}>{project.name}</div>
